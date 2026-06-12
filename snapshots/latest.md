@@ -1,10 +1,10 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-06-12T15:13:44Z
+Generated: 2026-06-12T18:00:02Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 957084
-- Uptime: 1.0h (active since Fri 2026-06-12 14:15:27 UTC)
+- Uptime: 3.7h (active since Fri 2026-06-12 14:15:27 UTC)
 - Last signal: 2026-06-12T12:04:45+0000 (#41 TRUMPUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 0
 
@@ -78,8 +78,8 @@ Generated: 2026-06-12T15:13:44Z
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-06-13 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-06-12 15:30 UTC
-- mmscan-snapshot: next run 2026-06-12 18:00 UTC
+- mmscan-hourly-backfill: next run 2026-06-12 18:30 UTC
+- mmscan-snapshot: next run 2026-06-13 00:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
