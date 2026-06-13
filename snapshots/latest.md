@@ -1,17 +1,17 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-06-13T06:00:01Z
+Generated: 2026-06-13T08:39:16Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 957084
-- Uptime: 15.7h (active since Fri 2026-06-12 14:15:27 UTC)
-- Last signal: 2026-06-12T22:05:11+0000 (#42 SOXLUSDT LONG, ongoing)
+- Uptime: 18.4h (active since Fri 2026-06-12 14:15:27 UTC)
+- Last signal: 2026-06-13T07:34:15+0000 (#44 CHZUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 0
 
 ## Shadow Journal Live
-- Total signals: 42
+- Total signals: 44
 - Closed: 38 (TP_clean 21, SL_clean 14, SL→reverse 0, Sideways 3, N/A 0)
-- Ongoing (<24h): 4
+- Ongoing (<24h): 6
 - TP rate: 60.0% decided (TP/(TP+SL)) · 55.3% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -31,9 +31,11 @@ Generated: 2026-06-13T06:00:01Z
 - TRUE кейсов: 14/15
 - Точечная SL_clean rate: 42.9%
 
-## Last 42 signals (live)
+## Last 44 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 44 | 13.06 | 10:34 | CHZUSDT | LONG | ongoing | осторожно 69% |
+| 43 | 13.06 | 10:03 | AXLUSDT | LONG | ongoing | осторожно 61% |
 | 42 | 13.06 | 01:05 | SOXLUSDT | LONG | ongoing | осторожно 78% |
 | 41 | 12.06 | 15:04 | TRUMPUSDT | LONG | ongoing | осторожно 62% |
 | 40 | 12.06 | 14:01 | SOXLUSDT | LONG | ongoing | осторожно 66% |
@@ -79,7 +81,7 @@ Generated: 2026-06-13T06:00:01Z
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-06-14 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-06-13 06:30 UTC
+- mmscan-hourly-backfill: next run 2026-06-13 09:30 UTC
 - mmscan-snapshot: next run 2026-06-13 12:00 UTC
 
 ## Pending items (для PM)
