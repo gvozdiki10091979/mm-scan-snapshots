@@ -1,29 +1,29 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-06-13T09:57:02Z
+Generated: 2026-06-13T10:16:31Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 957084
-- Uptime: 19.7h (active since Fri 2026-06-12 14:15:27 UTC)
+- Uptime: 20.0h (active since Fri 2026-06-12 14:15:27 UTC)
 - Last signal: 2026-06-13T07:34:15+0000 (#44 CHZUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-06-12T09:57:02Z → 2026-06-13T09:57:02Z)
+## Health 24h (window: 2026-06-12T10:16:31Z → 2026-06-13T10:16:31Z)
 - New signals: 5 (LONG 5 / SHORT 0)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
 - Ongoing: 5
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 19.7h, restarts: 0
+- Listener uptime: 20.0h, restarts: 0
 - Last closer: 2026-06-13T03:00:16Z
 - Last backfill: 2026-06-13T09:30:01Z
 - Anomalies: ongoing >24h без закрытия: 1
 
-## Health 7d (window: 2026-06-06T09:57:02Z → 2026-06-13T09:57:02Z)
+## Health 7d (window: 2026-06-06T10:16:31Z → 2026-06-13T10:16:31Z)
 - New signals: 44 (~6.3/day)
 - Closed: 38 (TP 21, SL 14, SL→rev 0, Sideways 3, N/A 0)
 - Ongoing: 6
 - TP rate 7d: 60.0%
-- Listener uptime 7d: 11.7% (continuous since unit start)
+- Listener uptime 7d: 11.9% (continuous since unit start)
 
 ## Shadow Journal Live
 - Total signals: 44
