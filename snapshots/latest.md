@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-06-13T12:00:01Z
+Generated: 2026-06-13T18:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 957084
-- Uptime: 21.7h (active since Fri 2026-06-12 14:15:27 UTC)
-- Last signal: 2026-06-13T07:34:15+0000 (#44 CHZUSDT LONG, ongoing)
+- Uptime: 27.7h (active since Fri 2026-06-12 14:15:27 UTC)
+- Last signal: 2026-06-13T17:03:18+0000 (#47 BABYUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-06-12T12:00:01Z → 2026-06-13T12:00:01Z)
-- New signals: 4 (LONG 4 / SHORT 0)
+## Health 24h (window: 2026-06-12T18:00:01Z → 2026-06-13T18:00:01Z)
+- New signals: 6 (LONG 4 / SHORT 2)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 4
-- TP rate 24h: n/a (<6 closed)
-- Listener uptime: 21.7h, restarts: 0
-- Last closer: 2026-06-13T03:00:16Z
-- Last backfill: 2026-06-13T11:30:02Z
-- Anomalies: ongoing >24h без закрытия: 2
-
-## Health 7d (window: 2026-06-06T12:00:01Z → 2026-06-13T12:00:01Z)
-- New signals: 44 (~6.3/day)
-- Closed: 38 (TP 21, SL 14, SL→rev 0, Sideways 3, N/A 0)
 - Ongoing: 6
+- TP rate 24h: n/a (<6 closed)
+- Listener uptime: 27.7h, restarts: 0
+- Last closer: 2026-06-13T03:00:16Z
+- Last backfill: 2026-06-13T17:30:02Z
+- Anomalies: ongoing >24h без закрытия: 3
+
+## Health 7d (window: 2026-06-06T18:00:01Z → 2026-06-13T18:00:01Z)
+- New signals: 47 (~6.7/day)
+- Closed: 38 (TP 21, SL 14, SL→rev 0, Sideways 3, N/A 0)
+- Ongoing: 9
 - TP rate 7d: 60.0%
-- Listener uptime 7d: 12.9% (continuous since unit start)
+- Listener uptime 7d: 16.5% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 44
+- Total signals: 47
 - Closed: 38 (TP_clean 21, SL_clean 14, SL→reverse 0, Sideways 3, N/A 0)
-- Ongoing (<24h): 6
+- Ongoing (<24h): 9
 - TP rate: 60.0% decided (TP/(TP+SL)) · 55.3% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -48,9 +48,12 @@ Generated: 2026-06-13T12:00:01Z
 - TRUE кейсов: 14/15
 - Точечная SL_clean rate: 42.9%
 
-## Last 44 signals (live)
+## Last 47 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 47 | 13.06 | 20:03 | BABYUSDT | LONG | ongoing | осторожно 65% |
+| 46 | 13.06 | 17:06 | RKLBUSDT | SHORT | ongoing | входить 90% |
+| 45 | 13.06 | 17:03 | AIOUSDT | SHORT | ongoing | входить 83% |
 | 44 | 13.06 | 10:34 | CHZUSDT | LONG | ongoing | осторожно 69% |
 | 43 | 13.06 | 10:03 | AXLUSDT | LONG | ongoing | осторожно 61% |
 | 42 | 13.06 | 01:05 | SOXLUSDT | LONG | ongoing | осторожно 78% |
@@ -98,8 +101,8 @@ Generated: 2026-06-13T12:00:01Z
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-06-14 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-06-13 12:30 UTC
-- mmscan-snapshot: next run 2026-06-13 18:00 UTC
+- mmscan-hourly-backfill: next run 2026-06-13 18:30 UTC
+- mmscan-snapshot: next run 2026-06-14 00:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
