@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-13T08:54:39Z",
-  "snapshot_version": "2026-06-13T085439Z",
+  "generated_at_utc": "2026-06-13T08:56:30Z",
+  "snapshot_version": "2026-06-13T085630Z",
   "listener": {
     "status": "active",
     "main_pid": 957084,
@@ -490,5 +490,38 @@
     "mmscan-daily-closer": "2026-06-14 03:00 UTC",
     "mmscan-hourly-backfill": "2026-06-13 09:30 UTC",
     "mmscan-snapshot": "2026-06-13 12:00 UTC"
+  },
+  "health_24h": {
+    "window_start_utc": "2026-06-12T08:56:30Z",
+    "window_end_utc": "2026-06-13T08:56:30Z",
+    "new_signals": 5,
+    "closed": 0,
+    "ongoing": 5,
+    "tp_clean": 0,
+    "sl_clean": 0,
+    "sl_reverse": 0,
+    "sideways": 0,
+    "na": 0,
+    "tp_rate_24h_pct": null,
+    "long": 5,
+    "short": 0,
+    "listener_uptime_hours": 18.7,
+    "listener_restarts": 0,
+    "cron": {
+      "daily_closer": {
+        "last_run_utc": "2026-06-13T03:00:16Z",
+        "last_line": "Лог: /root/mm-scan-trading-system/data/shadow/logs/closer.log"
+      },
+      "hourly_backfill": {
+        "last_run_utc": "2026-06-13T08:30:02Z",
+        "last_line": "Журнал: /root/mm-scan-trading-system/data/shadow/shadow_journal.xlsx  | лог: /root/mm-scan-trading-system/data/shadow/logs/backfill.log"
+      },
+      "snapshot": {
+        "last_run_utc": "2026-06-13T08:56:30Z"
+      }
+    },
+    "anomalies": [
+      "ongoing >24h без закрытия: 1"
+    ]
   }
 }
