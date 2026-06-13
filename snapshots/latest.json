@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-06-13T08:39:16Z",
-  "snapshot_version": "2026-06-13T083916Z",
+  "generated_at_utc": "2026-06-13T08:54:39Z",
+  "snapshot_version": "2026-06-13T085439Z",
   "listener": {
     "status": "active",
     "main_pid": 957084,
-    "uptime_hours": 18.4,
+    "uptime_hours": 18.7,
     "auto_restarts_since_start": 0,
     "active_since_utc": "Fri 2026-06-12 14:15:27 UTC"
   },
