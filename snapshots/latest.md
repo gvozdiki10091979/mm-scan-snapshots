@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-06-16T00:00:01Z
+Generated: 2026-06-16T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 957084
-- Uptime: 81.7h (active since Fri 2026-06-12 14:15:27 UTC)
-- Last signal: 2026-06-15T18:13:47+0000 (#67 IOUSDT SHORT, ongoing)
+- Uptime: 87.7h (active since Fri 2026-06-12 14:15:27 UTC)
+- Last signal: 2026-06-16T04:31:33+0000 (#69 VELVETUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-06-15T00:00:01Z → 2026-06-16T00:00:01Z)
-- New signals: 6 (LONG 4 / SHORT 2)
+## Health 24h (window: 2026-06-15T06:00:01Z → 2026-06-16T06:00:01Z)
+- New signals: 5 (LONG 3 / SHORT 2)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 6
+- Ongoing: 5
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 81.7h, restarts: 0
-- Last closer: 2026-06-15T03:00:23Z
-- Last backfill: 2026-06-15T23:30:02Z
-- Anomalies: ongoing >24h без закрытия: 11
+- Listener uptime: 87.7h, restarts: 0
+- Last closer: 2026-06-16T03:00:41Z
+- Last backfill: 2026-06-16T05:30:02Z
+- Anomalies: ongoing >24h без закрытия: 1
 
-## Health 7d (window: 2026-06-09T00:00:01Z → 2026-06-16T00:00:01Z)
+## Health 7d (window: 2026-06-09T06:00:01Z → 2026-06-16T06:00:01Z)
 - New signals: 63 (~9.0/day)
-- Closed: 46 (TP 21, SL 20, SL→rev 0, Sideways 5, N/A 0)
-- Ongoing: 17
-- TP rate 7d: 51.2%
-- Listener uptime 7d: 48.6% (continuous since unit start)
+- Closed: 57 (TP 27, SL 23, SL→rev 0, Sideways 7, N/A 0)
+- Ongoing: 6
+- TP rate 7d: 54.0%
+- Listener uptime 7d: 52.2% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 67
-- Closed: 50 (TP_clean 24, SL_clean 21, SL→reverse 0, Sideways 5, N/A 0)
-- Ongoing (<24h): 17
-- TP rate: 53.3% decided (TP/(TP+SL)) · 48.0% pointwise (excl N/A)
+- Total signals: 69
+- Closed: 63 (TP_clean 31, SL_clean 25, SL→reverse 0, Sideways 7, N/A 0)
+- Ongoing (<24h): 6
+- TP rate: 55.4% decided (TP/(TP+SL)) · 49.2% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,23 +51,25 @@ Generated: 2026-06-16T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 69 | 16.06 | 07:31 | VELVETUSDT | SHORT | ongoing | осторожно 60% |
+| 68 | 16.06 | 06:33 | MRVLUSDT | LONG | ongoing | осторожно 60% |
 | 67 | 15.06 | 21:13 | IOUSDT | SHORT | ongoing | осторожно 60% |
 | 66 | 15.06 | 19:32 | CHIPUSDT | LONG | ongoing | осторожно 61% |
 | 65 | 15.06 | 09:02 | ZKCUSDT | LONG | ongoing | осторожно 62% |
 | 64 | 15.06 | 08:33 | HMSTRUSDT | SHORT | ongoing | осторожно 65% |
-| 63 | 15.06 | 04:33 | BIOUSDT | LONG | ongoing | осторожно 61% |
-| 62 | 15.06 | 03:08 | XPLUSDT | LONG | ongoing | осторожно 64% |
-| 61 | 14.06 | 21:42 | STGUSDT | SHORT | ongoing | входить 90% |
-| 60 | 14.06 | 17:01 | MIRAUSDT | LONG | ongoing | осторожно 73% |
-| 59 | 14.06 | 15:31 | SKRUSDT | LONG | ongoing | осторожно 63% |
-| 58 | 14.06 | 11:02 | ORCAUSDT | SHORT | ongoing | осторожно 65% |
-| 57 | 14.06 | 09:05 | ONDOUSDT | SHORT | ongoing | осторожно 67% |
-| 56 | 14.06 | 08:06 | SEIUSDT | SHORT | ongoing | осторожно 68% |
-| 55 | 14.06 | 08:04 | ALLOUSDT | SHORT | ongoing | осторожно 68% |
-| 54 | 14.06 | 08:00 | CLOUSDT | SHORT | ongoing | осторожно 72% |
-| 53 | 14.06 | 07:33 | ZROUSDT | SHORT | ongoing | осторожно 65% |
-| 52 | 14.06 | 07:01 | ZKPUSDT | LONG | ongoing | осторожно 66% |
-| 51 | 14.06 | 06:03 | MEGAUSDT | LONG | ongoing | осторожно 63% |
+| 63 | 15.06 | 04:33 | BIOUSDT | LONG | TP_clean | осторожно 61% |
+| 62 | 15.06 | 03:08 | XPLUSDT | LONG | TP_clean | осторожно 64% |
+| 61 | 14.06 | 21:42 | STGUSDT | SHORT | TP_clean | входить 90% |
+| 60 | 14.06 | 17:01 | MIRAUSDT | LONG | SL_clean | осторожно 73% |
+| 59 | 14.06 | 15:31 | SKRUSDT | LONG | TP_clean | осторожно 63% |
+| 58 | 14.06 | 11:02 | ORCAUSDT | SHORT | Sideways | осторожно 65% |
+| 57 | 14.06 | 09:05 | ONDOUSDT | SHORT | TP_clean | осторожно 67% |
+| 56 | 14.06 | 08:06 | SEIUSDT | SHORT | Sideways | осторожно 68% |
+| 55 | 14.06 | 08:04 | ALLOUSDT | SHORT | TP_clean | осторожно 68% |
+| 54 | 14.06 | 08:00 | CLOUSDT | SHORT | SL_clean | осторожно 72% |
+| 53 | 14.06 | 07:33 | ZROUSDT | SHORT | SL_clean | осторожно 65% |
+| 52 | 14.06 | 07:01 | ZKPUSDT | LONG | TP_clean | осторожно 66% |
+| 51 | 14.06 | 06:03 | MEGAUSDT | LONG | SL_clean | осторожно 63% |
 | 50 | 14.06 | 03:31 | CHZUSDT | LONG | SL_clean | осторожно 68% |
 | 49 | 14.06 | 00:37 | ORCAUSDT | LONG | SL_clean | осторожно 60% |
 | 48 | 13.06 | 23:11 | BILLUSDT | SHORT | SL_clean | осторожно 64% |
@@ -99,13 +101,11 @@ Generated: 2026-06-16T00:00:01Z
 | 22 | 10.06 | 14:11 | XRPUSDT | SHORT | Sideways | осторожно 61% |
 | 21 | 10.06 | 11:39 | BLESSUSDT | SHORT | TP_clean | входить 90% |
 | 20 | 10.06 | 07:02 | RUNEUSDT | LONG | TP_clean | осторожно 61% |
-| 19 | 10.06 | 06:09 | XPLUSDT | SHORT | TP_clean | осторожно 65% |
-| 18 | 10.06 | 04:36 | CLOUSDT | SHORT | TP_clean | осторожно 60% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-06-16 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-06-16 00:30 UTC
-- mmscan-snapshot: next run 2026-06-16 06:00 UTC
+- mmscan-daily-closer: next run 2026-06-17 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-06-16 06:30 UTC
+- mmscan-snapshot: next run 2026-06-16 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
