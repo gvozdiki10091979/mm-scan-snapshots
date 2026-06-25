@@ -1,29 +1,29 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-06-24T18:00:01Z
+Generated: 2026-06-25T00:00:01Z
 
 ## Listener Health
 - systemd status: **active**
-- MainPID: 957084
-- Uptime: 291.7h (active since Fri 2026-06-12 14:15:27 UTC)
+- MainPID: 1504953
+- Uptime: 0.0h (active since Wed 2026-06-24 23:59:00 UTC)
 - Last signal: 2026-06-24T16:35:14+0000 (#167 INJUSDT SHORT, ongoing)
-- Auto-restarts (since unit start): 0
+- Auto-restarts (since unit start): 118
 
-## Health 24h (window: 2026-06-23T18:00:01Z → 2026-06-24T18:00:01Z)
-- New signals: 19 (LONG 4 / SHORT 15)
+## Health 24h (window: 2026-06-24T00:00:01Z → 2026-06-25T00:00:01Z)
+- New signals: 16 (LONG 3 / SHORT 13)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 19
+- Ongoing: 16
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 291.7h, restarts: 0
+- Listener uptime: 0.0h, restarts: 118
 - Last closer: 2026-06-24T03:00:39Z
-- Last backfill: 2026-06-24T17:30:02Z
-- Anomalies: ongoing >24h без закрытия: 6
+- Last backfill: 2026-06-24T23:31:07Z
+- Anomalies: listener рестартов: 118; ongoing >24h без закрытия: 9
 
-## Health 7d (window: 2026-06-17T18:00:01Z → 2026-06-24T18:00:01Z)
-- New signals: 84 (~12.0/day)
-- Closed: 59 (TP 35, SL 19, SL→rev 0, Sideways 5, N/A 0)
+## Health 7d (window: 2026-06-18T00:00:01Z → 2026-06-25T00:00:01Z)
+- New signals: 82 (~11.7/day)
+- Closed: 57 (TP 33, SL 19, SL→rev 0, Sideways 5, N/A 0)
 - Ongoing: 25
-- TP rate 7d: 64.8%
-- Listener uptime 7d: 100.0% (continuous since unit start)
+- TP rate 7d: 63.5%
+- Listener uptime 7d: 0.0% (continuous since unit start)
 
 ## Shadow Journal Live
 - Total signals: 167
@@ -104,8 +104,8 @@ Generated: 2026-06-24T18:00:01Z
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-06-25 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-06-24 18:30 UTC
-- mmscan-snapshot: next run 2026-06-25 00:00 UTC
+- mmscan-hourly-backfill: next run 2026-06-25 00:30 UTC
+- mmscan-snapshot: next run 2026-06-25 06:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
