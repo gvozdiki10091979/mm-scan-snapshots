@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-01T12:00:01Z
+Generated: 2026-07-01T18:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1505324
-- Uptime: 155.3h (active since Thu 2026-06-25 00:39:12 UTC)
-- Last signal: 2026-07-01T11:36:33+0000 (#254 CHZUSDT SHORT, ongoing)
+- Uptime: 161.3h (active since Thu 2026-06-25 00:39:12 UTC)
+- Last signal: 2026-07-01T04:01:53+0000 (#262 FLNCUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 143
 
-## Health 24h (window: 2026-06-30T12:00:01Z → 2026-07-01T12:00:01Z)
-- New signals: 18 (LONG 3 / SHORT 15)
+## Health 24h (window: 2026-06-30T18:00:01Z → 2026-07-01T18:00:01Z)
+- New signals: 23 (LONG 3 / SHORT 20)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 18
+- Ongoing: 23
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 155.3h, restarts: 143
+- Listener uptime: 161.3h, restarts: 143
 - Last closer: 2026-07-01T03:00:37Z
-- Last backfill: 2026-07-01T11:30:02Z
-- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 4
+- Last backfill: 2026-07-01T17:30:02Z
+- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 7
 
-## Health 7d (window: 2026-06-24T12:00:01Z → 2026-07-01T12:00:01Z)
-- New signals: 90 (~12.9/day)
-- Closed: 68 (TP 37, SL 18, SL→rev 0, Sideways 13, N/A 0)
-- Ongoing: 22
-- TP rate 7d: 67.3%
-- Listener uptime 7d: 92.4% (continuous since unit start)
+## Health 7d (window: 2026-06-24T18:00:01Z → 2026-07-01T18:00:01Z)
+- New signals: 95 (~13.6/day)
+- Closed: 65 (TP 34, SL 18, SL→rev 0, Sideways 13, N/A 0)
+- Ongoing: 30
+- TP rate 7d: 65.4%
+- Listener uptime 7d: 96.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 254
+- Total signals: 262
 - Closed: 232 (TP_clean 125, SL_clean 81, SL→reverse 0, Sideways 26, N/A 0)
-- Ongoing (<24h): 22
+- Ongoing (<24h): 30
 - TP rate: 60.7% decided (TP/(TP+SL)) · 53.9% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,14 @@ Generated: 2026-07-01T12:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 262 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
+| 261 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
+| 260 | 01.07 | 19:07 | PYTHUSDT | LONG | ongoing | осторожно 61% |
+| 259 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
+| 258 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
+| 257 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
+| 256 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
+| 255 | 01.07 | 15:08 | ALLOUSDT | SHORT | ongoing | осторожно 62% |
 | 254 | 01.07 | 14:36 | CHZUSDT | SHORT | ongoing | осторожно 61% |
 | 253 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
 | 252 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
@@ -93,19 +101,11 @@ Generated: 2026-07-01T12:00:01Z
 | 215 | 27.06 | 22:02 | BICOUSDT | LONG | TP_clean | осторожно 61% |
 | 214 | 27.06 | 18:33 | ARXUSDT | LONG | SL_clean | осторожно 71% |
 | 213 | 27.06 | 17:35 | SEIUSDT | SHORT | TP_clean | осторожно 64% |
-| 212 | 27.06 | 17:00 | STGUSDT | LONG | TP_clean | осторожно 71% |
-| 211 | 27.06 | 16:05 | IDUSDT | LONG | SL_clean | осторожно 61% |
-| 210 | 27.06 | 16:02 | AGLDUSDT | LONG | TP_clean | осторожно 61% |
-| 209 | 27.06 | 15:07 | SNDKUSDT | SHORT | Sideways | осторожно 60% |
-| 208 | 27.06 | 13:32 | GLMUSDT | LONG | TP_clean | осторожно 78% |
-| 207 | 27.06 | 08:09 | BCHUSDT | LONG | Sideways | осторожно 62% |
-| 206 | 27.06 | 08:03 | ARKUSDT | LONG | TP_clean | осторожно 66% |
-| 205 | 27.06 | 05:32 | OUSDT | SHORT | SL_clean | входить 87% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-07-02 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-01 12:30 UTC
-- mmscan-snapshot: next run 2026-07-01 18:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-01 18:30 UTC
+- mmscan-snapshot: next run 2026-07-02 00:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
