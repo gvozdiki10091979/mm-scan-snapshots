@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-03T00:00:01Z
+Generated: 2026-07-03T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1505324
-- Uptime: 191.3h (active since Thu 2026-06-25 00:39:12 UTC)
-- Last signal: 2026-07-02T20:35:49+0000 (#290 SOLUSDT LONG, ongoing)
+- Uptime: 197.3h (active since Thu 2026-06-25 00:39:12 UTC)
+- Last signal: 2026-07-03T05:10:27+0000 (#296 LITUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 143
 
-## Health 24h (window: 2026-07-02T00:00:01Z → 2026-07-03T00:00:01Z)
-- New signals: 14 (LONG 6 / SHORT 8)
+## Health 24h (window: 2026-07-02T06:00:01Z → 2026-07-03T06:00:01Z)
+- New signals: 20 (LONG 10 / SHORT 10)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 14
+- Ongoing: 20
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 191.3h, restarts: 143
-- Last closer: 2026-07-02T03:00:32Z
-- Last backfill: 2026-07-02T23:30:02Z
-- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 33
+- Listener uptime: 197.3h, restarts: 143
+- Last closer: 2026-07-03T03:00:37Z
+- Last backfill: 2026-07-03T05:30:02Z
+- Anomalies: listener рестартов: 143
 
-## Health 7d (window: 2026-06-26T00:00:01Z → 2026-07-03T00:00:01Z)
+## Health 7d (window: 2026-06-26T06:00:01Z → 2026-07-03T06:00:01Z)
 - New signals: 107 (~15.3/day)
-- Closed: 60 (TP 30, SL 20, SL→rev 0, Sideways 10, N/A 0)
-- Ongoing: 47
-- TP rate 7d: 60.0%
+- Closed: 87 (TP 56, SL 21, SL→rev 0, Sideways 10, N/A 0)
+- Ongoing: 20
+- TP rate 7d: 72.7%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 290
-- Closed: 243 (TP_clean 130, SL_clean 87, SL→reverse 0, Sideways 26, N/A 0)
-- Ongoing (<24h): 47
-- TP rate: 59.9% decided (TP/(TP+SL)) · 53.5% pointwise (excl N/A)
+- Total signals: 296
+- Closed: 276 (TP_clean 158, SL_clean 91, SL→reverse 0, Sideways 27, N/A 0)
+- Ongoing (<24h): 20
+- TP rate: 63.5% decided (TP/(TP+SL)) · 57.2% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,6 +51,12 @@ Generated: 2026-07-03T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 296 | 03.07 | 08:10 | LITUSDT | LONG | ongoing | осторожно 65% |
+| 295 | 03.07 | 06:31 | ALLOUSDT | LONG | ongoing | осторожно 69% |
+| 294 | 03.07 | 06:05 | MIRAUSDT | LONG | ongoing | осторожно 67% |
+| 293 | 03.07 | 06:01 | CAPUSDT | SHORT | ongoing | осторожно 73% |
+| 292 | 03.07 | 03:37 | AIGENSYNUSDT | SHORT | ongoing | осторожно 70% |
+| 291 | 03.07 | 03:31 | RPLUSDT | LONG | ongoing | осторожно 61% |
 | 290 | 02.07 | 23:35 | SOLUSDT | LONG | ongoing | осторожно 60% |
 | 289 | 02.07 | 23:31 | BIRBUSDT | LONG | ongoing | входить 82% |
 | 288 | 02.07 | 23:30 | LABUSDT | SHORT | ongoing | осторожно 68% |
@@ -65,47 +71,41 @@ Generated: 2026-07-03T00:00:01Z
 | 279 | 02.07 | 12:08 | WLDUSDT | SHORT | ongoing | осторожно 62% |
 | 278 | 02.07 | 12:02 | EWYUSDT | SHORT | ongoing | осторожно 68% |
 | 277 | 02.07 | 11:01 | BIRBUSDT | LONG | ongoing | осторожно 62% |
-| 276 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 275 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 274 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 273 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 272 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 271 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 270 | 02.07 | 00:38 | HUSDT | SHORT | ongoing | осторожно 73% |
-| 269 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 268 | 01.07 | 23:31 | AIGENSYNUSDT | SHORT | ongoing | осторожно 63% |
-| 267 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 266 | 01.07 | 23:04 | 1000BONKUSDT | SHORT | ongoing | осторожно 62% |
-| 265 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 264 | 01.07 | 21:34 | INJUSDT | LONG | ongoing | осторожно 68% |
-| 263 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 262 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 261 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 260 | 01.07 | 19:07 | PYTHUSDT | LONG | ongoing | осторожно 61% |
-| 259 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 258 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 257 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 256 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 255 | 01.07 | 15:08 | ALLOUSDT | SHORT | ongoing | осторожно 62% |
-| 254 | 01.07 | 14:36 | CHZUSDT | SHORT | ongoing | осторожно 61% |
-| 253 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 252 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 251 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 250 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 249 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 248 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 247 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 246 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 245 | 01.07 | 07:01 | FLNCUSDT | SHORT | ongoing | осторожно 60% |
-| 244 | 01.07 | 06:06 | AAOIUSDT | LONG | ongoing | осторожно 62% |
-| 243 | 01.07 | 05:03 | AIGENSYNUSDT | LONG | SL_clean | осторожно 71% |
-| 242 | 01.07 | 03:10 | 1000BONKUSDT | SHORT | SL_clean | осторожно 63% |
-| 241 | 01.07 | 00:01 | SLXUSDT | SHORT | TP_clean | осторожно 60% |
+| 276 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 275 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 274 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 273 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 272 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 271 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 270 | 02.07 | 00:38 | HUSDT | SHORT | TP_clean | осторожно 73% |
+| 269 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 268 | 01.07 | 23:31 | AIGENSYNUSDT | SHORT | TP_clean | осторожно 63% |
+| 267 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 266 | 01.07 | 23:04 | 1000BONKUSDT | SHORT | Sideways | осторожно 62% |
+| 265 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 264 | 01.07 | 21:34 | INJUSDT | LONG | SL_clean | осторожно 68% |
+| 263 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 262 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 261 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 260 | 01.07 | 19:07 | PYTHUSDT | LONG | SL_clean | осторожно 61% |
+| 259 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 258 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 257 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 256 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 255 | 01.07 | 15:08 | ALLOUSDT | SHORT | TP_clean | осторожно 62% |
+| 254 | 01.07 | 14:36 | CHZUSDT | SHORT | SL_clean | осторожно 61% |
+| 253 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 252 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 251 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 250 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 249 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 248 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
+| 247 | 01.07 | 07:01 | FLNCUSDT | SHORT | TP_clean | осторожно 60% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-07-03 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-03 00:30 UTC
-- mmscan-snapshot: next run 2026-07-03 06:00 UTC
+- mmscan-daily-closer: next run 2026-07-04 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-03 06:30 UTC
+- mmscan-snapshot: next run 2026-07-03 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
