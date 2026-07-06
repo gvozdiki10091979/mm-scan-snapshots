@@ -1,10 +1,10 @@
 # MM Scan Public Snapshots
 
-**Last update:** 2026-07-06T12:00:01Z
+**Last update:** 2026-07-06T18:00:01Z
 
 ## URLs для архитектора (with cache busting):
-- **Markdown (human):** [latest.md](https://raw.githubusercontent.com/gvozdiki10091979/mm-scan-snapshots/main/snapshots/latest.md?v=2026-07-06T120001Z)
-- **JSON (machine):** [latest.json](https://raw.githubusercontent.com/gvozdiki10091979/mm-scan-snapshots/main/snapshots/latest.json?v=2026-07-06T120001Z)
+- **Markdown (human):** [latest.md](https://raw.githubusercontent.com/gvozdiki10091979/mm-scan-snapshots/main/snapshots/latest.md?v=2026-07-06T180001Z)
+- **JSON (machine):** [latest.json](https://raw.githubusercontent.com/gvozdiki10091979/mm-scan-snapshots/main/snapshots/latest.json?v=2026-07-06T180001Z)
 
 ## URLs без cache busting (могут быть устаревшими):
 - https://raw.githubusercontent.com/gvozdiki10091979/mm-scan-snapshots/main/snapshots/latest.md
