@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-08T00:00:02Z
+Generated: 2026-07-08T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1505324
-- Uptime: 311.3h (active since Thu 2026-06-25 00:39:12 UTC)
-- Last signal: 2026-07-07T21:30:45+0000 (#372 YFIUSDT LONG, ongoing)
+- Uptime: 317.3h (active since Thu 2026-06-25 00:39:12 UTC)
+- Last signal: 2026-07-07T21:30:45+0000 (#381 YFIUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 143
 
-## Health 24h (window: 2026-07-07T00:00:02Z → 2026-07-08T00:00:02Z)
-- New signals: 13 (LONG 4 / SHORT 9)
+## Health 24h (window: 2026-07-07T06:00:01Z → 2026-07-08T06:00:01Z)
+- New signals: 21 (LONG 10 / SHORT 11)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 13
+- Ongoing: 21
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 311.3h, restarts: 143
-- Last closer: 2026-07-07T03:00:25Z
-- Last backfill: 2026-07-07T23:30:02Z
-- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 36
+- Listener uptime: 317.3h, restarts: 143
+- Last closer: 2026-07-08T03:00:41Z
+- Last backfill: 2026-07-08T05:30:02Z
+- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 1
 
-## Health 7d (window: 2026-07-01T00:00:02Z → 2026-07-08T00:00:02Z)
-- New signals: 131 (~18.7/day)
-- Closed: 82 (TP 51, SL 28, SL→rev 0, Sideways 3, N/A 0)
-- Ongoing: 49
-- TP rate 7d: 64.6%
+## Health 7d (window: 2026-07-01T06:00:01Z → 2026-07-08T06:00:01Z)
+- New signals: 112 (~16.0/day)
+- Closed: 90 (TP 31, SL 31, SL→rev 0, Sideways 28, N/A 0)
+- Ongoing: 22
+- TP rate 7d: 50.0%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 372
-- Closed: 323 (TP_clean 181, SL_clean 113, SL→reverse 0, Sideways 29, N/A 0)
-- Ongoing (<24h): 49
-- TP rate: 61.6% decided (TP/(TP+SL)) · 56.0% pointwise (excl N/A)
+- Total signals: 381
+- Closed: 359 (TP_clean 186, SL_clean 119, SL→reverse 0, Sideways 54, N/A 0)
+- Ongoing (<24h): 22
+- TP rate: 61.0% decided (TP/(TP+SL)) · 51.8% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,6 +51,15 @@ Generated: 2026-07-08T00:00:02Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 381 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 380 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 379 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 378 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 377 | 08.07 | 04:36 | HMSTRUSDT | SHORT | ongoing | входить 87% |
+| 376 | 08.07 | 04:33 | MIRAUSDT | SHORT | ongoing | осторожно 73% |
+| 375 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 374 | 08.07 | 03:41 | MAGMAUSDT | SHORT | ongoing | осторожно 61% |
+| 373 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
 | 372 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
 | 371 | 08.07 | 02:01 | HEIUSDT | SHORT | ongoing | осторожно 71% |
 | 370 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
@@ -59,53 +68,44 @@ Generated: 2026-07-08T00:00:02Z
 | 367 | 07.07 | 21:32 | GWEIUSDT | SHORT | ongoing | осторожно 62% |
 | 366 | 07.07 | 20:36 | SNDKUSDT | SHORT | ongoing | осторожно 89% |
 | 365 | 07.07 | 19:41 | EVAAUSDT | LONG | ongoing | осторожно 61% |
-| 364 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
+| 364 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
 | 363 | 07.07 | 19:07 | WLDUSDT | SHORT | ongoing | осторожно 62% |
-| 362 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 361 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 360 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 359 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 358 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
+| 362 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 361 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 360 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 359 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 358 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
 | 357 | 07.07 | 14:03 | BEUSDT | SHORT | ongoing | осторожно 64% |
 | 356 | 07.07 | 13:41 | ETHFIUSDT | SHORT | ongoing | осторожно 80% |
-| 355 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 354 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
+| 355 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 354 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
 | 353 | 07.07 | 11:35 | WLDUSDT | SHORT | ongoing | осторожно 62% |
-| 352 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 351 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 350 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 349 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
+| 352 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 351 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 350 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 349 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
 | 348 | 07.07 | 08:10 | SUIUSDT | SHORT | ongoing | осторожно 72% |
-| 347 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 346 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 345 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 344 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 343 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 342 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 341 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 340 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 339 | 06.07 | 23:33 | 1000BONKUSDT | SHORT | ongoing | осторожно 76% |
-| 338 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 337 | 06.07 | 23:06 | SKHYNIXUSDT | SHORT | ongoing | осторожно 68% |
-| 336 | 06.07 | 22:32 | REUSDT | SHORT | ongoing | входить 82% |
-| 335 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 334 | 06.07 | 22:02 | BLURUSDT | LONG | ongoing | осторожно 62% |
-| 333 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 332 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 331 | 06.07 | 19:33 | DELLUSDT | LONG | ongoing | осторожно 60% |
-| 330 | 06.07 | 19:07 | BCHUSDT | LONG | ongoing | осторожно 67% |
-| 329 | 06.07 | 15:06 | BELUSDT | LONG | ongoing | осторожно 60% |
-| 328 | 06.07 | 15:05 | MINAUSDT | SHORT | ongoing | осторожно 62% |
-| 327 | 06.07 | 13:06 | SOLUSDT | SHORT | ongoing | осторожно 62% |
-| 326 | 06.07 | 12:01 | KORUUSDT | LONG | ongoing | осторожно 78% |
-| 325 | 06.07 | 11:33 | HUSDT | SHORT | ongoing | осторожно 60% |
-| 324 | 06.07 | 08:01 | VANRYUSDT | LONG | ongoing | осторожно 61% |
-| 323 | 06.07 | 05:02 | USELESSUSDT | SHORT | TP_clean | осторожно 62% |
+| 347 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 346 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 345 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 344 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 343 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 342 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 341 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 340 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 339 | 06.07 | 23:33 | 1000BONKUSDT | SHORT | TP_clean | осторожно 76% |
+| 338 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 337 | 06.07 | 23:06 | SKHYNIXUSDT | SHORT | TP_clean | осторожно 68% |
+| 336 | 06.07 | 22:32 | REUSDT | SHORT | SL_clean | входить 82% |
+| 335 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 334 | 06.07 | 22:02 | BLURUSDT | LONG | TP_clean | осторожно 62% |
+| 333 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
+| 332 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-07-08 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-08 00:30 UTC
-- mmscan-snapshot: next run 2026-07-08 06:00 UTC
+- mmscan-daily-closer: next run 2026-07-09 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-08 06:30 UTC
+- mmscan-snapshot: next run 2026-07-08 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
