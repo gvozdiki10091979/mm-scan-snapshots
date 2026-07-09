@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-09T00:00:01Z
+Generated: 2026-07-09T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1505324
-- Uptime: 335.3h (active since Thu 2026-06-25 00:39:12 UTC)
-- Last signal: 2026-07-07T21:30:45+0000 (#409 YFIUSDT LONG, ongoing)
+- Uptime: 341.3h (active since Thu 2026-06-25 00:39:12 UTC)
+- Last signal: 2026-07-09T03:05:32+0000 (#411 RAVEUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 143
 
-## Health 24h (window: 2026-07-08T00:00:01Z → 2026-07-09T00:00:01Z)
-- New signals: 15 (LONG 1 / SHORT 14)
+## Health 24h (window: 2026-07-08T06:00:01Z → 2026-07-09T06:00:01Z)
+- New signals: 14 (LONG 1 / SHORT 13)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 15
+- Ongoing: 14
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 335.3h, restarts: 143
-- Last closer: 2026-07-08T03:00:41Z
-- Last backfill: 2026-07-08T23:30:02Z
-- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 35
+- Listener uptime: 341.3h, restarts: 143
+- Last closer: 2026-07-09T03:00:46Z
+- Last backfill: 2026-07-09T05:30:02Z
+- Anomalies: listener рестартов: 143
 
-## Health 7d (window: 2026-07-02T00:00:01Z → 2026-07-09T00:00:01Z)
-- New signals: 133 (~19.0/day)
-- Closed: 83 (TP 28, SL 28, SL→rev 0, Sideways 27, N/A 0)
-- Ongoing: 50
-- TP rate 7d: 50.0%
+## Health 7d (window: 2026-07-02T06:00:01Z → 2026-07-09T06:00:01Z)
+- New signals: 135 (~19.3/day)
+- Closed: 121 (TP 39, SL 55, SL→rev 0, Sideways 27, N/A 0)
+- Ongoing: 14
+- TP rate 7d: 41.5%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 409
-- Closed: 359 (TP_clean 186, SL_clean 119, SL→reverse 0, Sideways 54, N/A 0)
-- Ongoing (<24h): 50
-- TP rate: 61.0% decided (TP/(TP+SL)) · 51.8% pointwise (excl N/A)
+- Total signals: 411
+- Closed: 397 (TP_clean 197, SL_clean 146, SL→reverse 0, Sideways 54, N/A 0)
+- Ongoing (<24h): 14
+- TP rate: 57.4% decided (TP/(TP+SL)) · 49.6% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,61 +51,61 @@ Generated: 2026-07-09T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
-| 409 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 411 | 09.07 | 06:05 | RAVEUSDT | SHORT | ongoing | осторожно 64% |
+| 410 | 09.07 | 04:31 | SLXUSDT | SHORT | ongoing | осторожно 64% |
+| 409 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 408 | 09.07 | 00:11 | TRIAUSDT | SHORT | ongoing | осторожно 75% |
 | 407 | 08.07 | 23:31 | GWEIUSDT | SHORT | ongoing | входить 90% |
-| 406 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 406 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 405 | 08.07 | 23:06 | ENAUSDT | SHORT | ongoing | осторожно 65% |
-| 404 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 404 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 403 | 08.07 | 22:05 | DEXEUSDT | LONG | ongoing | осторожно 61% |
 | 402 | 08.07 | 22:03 | ONDOUSDT | SHORT | ongoing | осторожно 69% |
-| 401 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 401 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 400 | 08.07 | 21:15 | TAOUSDT | SHORT | ongoing | осторожно 65% |
-| 399 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 398 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 397 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 399 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 398 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 397 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 396 | 08.07 | 18:02 | PIPPINUSDT | SHORT | ongoing | осторожно 81% |
 | 395 | 08.07 | 17:36 | TRIAUSDT | SHORT | ongoing | осторожно 73% |
-| 394 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 393 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 394 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 393 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 392 | 08.07 | 16:03 | ALGOUSDT | SHORT | ongoing | осторожно 61% |
 | 391 | 08.07 | 15:31 | VELVETUSDT | SHORT | ongoing | осторожно 63% |
-| 390 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 389 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 388 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 390 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 389 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 388 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 387 | 08.07 | 12:36 | MAGMAUSDT | SHORT | ongoing | осторожно 66% |
-| 386 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 385 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 384 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
+| 386 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 385 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 384 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 383 | 08.07 | 09:35 | TAOUSDT | SHORT | ongoing | осторожно 62% |
-| 382 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 381 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 380 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 379 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 378 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 377 | 08.07 | 04:36 | HMSTRUSDT | SHORT | ongoing | входить 87% |
-| 376 | 08.07 | 04:33 | MIRAUSDT | SHORT | ongoing | осторожно 73% |
-| 375 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 374 | 08.07 | 03:41 | MAGMAUSDT | SHORT | ongoing | осторожно 61% |
-| 373 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 372 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 371 | 08.07 | 02:01 | HEIUSDT | SHORT | ongoing | осторожно 71% |
-| 370 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 369 | 08.07 | 00:34 | TQQQUSDT | SHORT | ongoing | осторожно 77% |
-| 368 | 08.07 | 00:30 | YFIUSDT | LONG | ongoing | входить 89% |
-| 367 | 07.07 | 21:32 | GWEIUSDT | SHORT | ongoing | осторожно 62% |
-| 366 | 07.07 | 20:36 | SNDKUSDT | SHORT | ongoing | осторожно 89% |
-| 365 | 07.07 | 19:41 | EVAAUSDT | LONG | ongoing | осторожно 61% |
+| 382 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 381 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 380 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 379 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 378 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 377 | 08.07 | 04:36 | HMSTRUSDT | SHORT | TP_clean | входить 87% |
+| 376 | 08.07 | 04:33 | MIRAUSDT | SHORT | TP_clean | осторожно 73% |
+| 375 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 374 | 08.07 | 03:41 | MAGMAUSDT | SHORT | TP_clean | осторожно 61% |
+| 373 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 372 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 371 | 08.07 | 02:01 | HEIUSDT | SHORT | SL_clean | осторожно 71% |
+| 370 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 369 | 08.07 | 00:34 | TQQQUSDT | SHORT | TP_clean | осторожно 77% |
+| 368 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
+| 367 | 07.07 | 21:32 | GWEIUSDT | SHORT | SL_clean | осторожно 62% |
+| 366 | 07.07 | 20:36 | SNDKUSDT | SHORT | TP_clean | осторожно 89% |
+| 365 | 07.07 | 19:41 | EVAAUSDT | LONG | TP_clean | осторожно 61% |
 | 364 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
-| 363 | 07.07 | 19:07 | WLDUSDT | SHORT | ongoing | осторожно 62% |
+| 363 | 07.07 | 19:07 | WLDUSDT | SHORT | TP_clean | осторожно 62% |
 | 362 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
-| 361 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
-| 360 | 06.07 | 19:33 | DELLUSDT | LONG | Sideways | осторожно 60% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-07-09 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-09 00:30 UTC
-- mmscan-snapshot: next run 2026-07-09 06:00 UTC
+- mmscan-daily-closer: next run 2026-07-10 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-09 06:30 UTC
+- mmscan-snapshot: next run 2026-07-09 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
