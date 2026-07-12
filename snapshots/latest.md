@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-12T00:00:01Z
+Generated: 2026-07-12T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1505324
-- Uptime: 407.3h (active since Thu 2026-06-25 00:39:12 UTC)
-- Last signal: 2026-07-11T14:03:08+0000 (#433 SLXUSDT SHORT, ongoing)
+- Uptime: 413.3h (active since Thu 2026-06-25 00:39:12 UTC)
+- Last signal: 2026-07-12T05:04:05+0000 (#436 JTOUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 143
 
-## Health 24h (window: 2026-07-11T00:00:01Z → 2026-07-12T00:00:01Z)
-- New signals: 9 (LONG 2 / SHORT 7)
+## Health 24h (window: 2026-07-11T06:00:01Z → 2026-07-12T06:00:01Z)
+- New signals: 10 (LONG 1 / SHORT 9)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 9
+- Ongoing: 10
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 407.3h, restarts: 143
-- Last closer: 2026-07-11T03:00:33Z
-- Last backfill: 2026-07-11T23:30:02Z
-- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 6
+- Listener uptime: 413.3h, restarts: 143
+- Last closer: 2026-07-12T03:00:23Z
+- Last backfill: 2026-07-12T05:30:02Z
+- Anomalies: listener рестартов: 143
 
-## Health 7d (window: 2026-07-05T00:00:01Z → 2026-07-12T00:00:01Z)
-- New signals: 121 (~17.3/day)
-- Closed: 106 (TP 38, SL 40, SL→rev 0, Sideways 28, N/A 0)
-- Ongoing: 15
-- TP rate 7d: 48.7%
+## Health 7d (window: 2026-07-05T06:00:01Z → 2026-07-12T06:00:01Z)
+- New signals: 120 (~17.1/day)
+- Closed: 110 (TP 36, SL 44, SL→rev 0, Sideways 30, N/A 0)
+- Ongoing: 10
+- TP rate 7d: 45.0%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 433
-- Closed: 418 (TP_clean 210, SL_clean 151, SL→reverse 0, Sideways 57, N/A 0)
-- Ongoing (<24h): 15
-- TP rate: 58.2% decided (TP/(TP+SL)) · 50.2% pointwise (excl N/A)
+- Total signals: 436
+- Closed: 426 (TP_clean 212, SL_clean 155, SL→reverse 0, Sideways 59, N/A 0)
+- Ongoing (<24h): 10
+- TP rate: 57.8% decided (TP/(TP+SL)) · 49.8% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,6 +51,9 @@ Generated: 2026-07-12T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 436 | 12.07 | 08:04 | JTOUSDT | SHORT | ongoing | осторожно 60% |
+| 435 | 12.07 | 05:03 | PENDLEUSDT | SHORT | ongoing | осторожно 70% |
+| 434 | 12.07 | 03:30 | TACUSDT | SHORT | ongoing | осторожно 73% |
 | 433 | 11.07 | 17:03 | SLXUSDT | SHORT | ongoing | осторожно 64% |
 | 432 | 11.07 | 16:02 | INJUSDT | SHORT | ongoing | осторожно 71% |
 | 431 | 11.07 | 14:06 | INTCUSDT | SHORT | ongoing | осторожно 90% |
@@ -58,14 +61,14 @@ Generated: 2026-07-12T00:00:01Z
 | 429 | 11.07 | 12:02 | TLMUSDT | SHORT | ongoing | входить 90% |
 | 428 | 11.07 | 11:01 | VANRYUSDT | SHORT | ongoing | осторожно 63% |
 | 427 | 11.07 | 09:36 | SENTUSDT | SHORT | ongoing | осторожно 67% |
-| 426 | 11.07 | 05:31 | IOTAUSDT | LONG | ongoing | осторожно 68% |
-| 425 | 11.07 | 04:04 | BEUSDT | SHORT | ongoing | осторожно 76% |
-| 424 | 10.07 | 23:33 | MAGMAUSDT | LONG | ongoing | осторожно 61% |
-| 423 | 10.07 | 20:07 | DASHUSDT | SHORT | ongoing | осторожно 60% |
-| 422 | 10.07 | 18:03 | IOTAUSDT | LONG | ongoing | осторожно 60% |
-| 421 | 10.07 | 07:09 | SOXLUSDT | LONG | ongoing | осторожно 67% |
-| 420 | 10.07 | 06:37 | BANANAS31USDT | SHORT | ongoing | осторожно 68% |
-| 419 | 10.07 | 06:09 | AAOIUSDT | LONG | ongoing | осторожно 60% |
+| 426 | 11.07 | 05:31 | IOTAUSDT | LONG | TP_clean | осторожно 68% |
+| 425 | 11.07 | 04:04 | BEUSDT | SHORT | Sideways | осторожно 76% |
+| 424 | 10.07 | 23:33 | MAGMAUSDT | LONG | SL_clean | осторожно 61% |
+| 423 | 10.07 | 20:07 | DASHUSDT | SHORT | Sideways | осторожно 60% |
+| 422 | 10.07 | 18:03 | IOTAUSDT | LONG | SL_clean | осторожно 60% |
+| 421 | 10.07 | 07:09 | SOXLUSDT | LONG | SL_clean | осторожно 67% |
+| 420 | 10.07 | 06:37 | BANANAS31USDT | SHORT | TP_clean | осторожно 68% |
+| 419 | 10.07 | 06:09 | AAOIUSDT | LONG | SL_clean | осторожно 60% |
 | 418 | 10.07 | 05:03 | 1000BONKUSDT | LONG | TP_clean | осторожно 67% |
 | 417 | 10.07 | 03:35 | HEIUSDT | SHORT | TP_clean | осторожно 60% |
 | 416 | 10.07 | 01:07 | SNDKUSDT | LONG | SL_clean | осторожно 61% |
@@ -98,14 +101,11 @@ Generated: 2026-07-12T00:00:01Z
 | 389 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 388 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 387 | 08.07 | 12:36 | MAGMAUSDT | SHORT | SL_clean | осторожно 66% |
-| 386 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
-| 385 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
-| 384 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-07-12 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-12 00:30 UTC
-- mmscan-snapshot: next run 2026-07-12 06:00 UTC
+- mmscan-daily-closer: next run 2026-07-13 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-12 06:30 UTC
+- mmscan-snapshot: next run 2026-07-12 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
