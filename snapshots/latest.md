@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-13T12:00:01Z
+Generated: 2026-07-13T18:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1505324
-- Uptime: 443.3h (active since Thu 2026-06-25 00:39:12 UTC)
-- Last signal: 2026-07-13T05:08:09+0000 (#446 MORPHOUSDT SHORT, ongoing)
+- Uptime: 449.3h (active since Thu 2026-06-25 00:39:12 UTC)
+- Last signal: 2026-07-13T14:32:16+0000 (#447 KAITOUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 143
 
-## Health 24h (window: 2026-07-12T12:00:01Z → 2026-07-13T12:00:01Z)
-- New signals: 4 (LONG 2 / SHORT 2)
+## Health 24h (window: 2026-07-12T18:00:01Z → 2026-07-13T18:00:01Z)
+- New signals: 3 (LONG 1 / SHORT 2)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 4
+- Ongoing: 3
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 443.3h, restarts: 143
+- Listener uptime: 449.3h, restarts: 143
 - Last closer: 2026-07-13T03:00:17Z
-- Last backfill: 2026-07-13T11:30:02Z
-- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 7
+- Last backfill: 2026-07-13T17:30:02Z
+- Anomalies: listener рестартов: 143; ongoing >24h без закрытия: 9
 
-## Health 7d (window: 2026-07-06T12:00:01Z → 2026-07-13T12:00:01Z)
-- New signals: 119 (~17.0/day)
-- Closed: 108 (TP 37, SL 39, SL→rev 0, Sideways 32, N/A 0)
-- Ongoing: 11
-- TP rate 7d: 48.7%
+## Health 7d (window: 2026-07-06T18:00:01Z → 2026-07-13T18:00:01Z)
+- New signals: 92 (~13.1/day)
+- Closed: 80 (TP 36, SL 37, SL→rev 0, Sideways 7, N/A 0)
+- Ongoing: 12
+- TP rate 7d: 49.3%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 446
+- Total signals: 447
 - Closed: 435 (TP_clean 219, SL_clean 155, SL→reverse 0, Sideways 61, N/A 0)
-- Ongoing (<24h): 11
+- Ongoing (<24h): 12
 - TP rate: 58.6% decided (TP/(TP+SL)) · 50.3% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,7 @@ Generated: 2026-07-13T12:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 447 | 13.07 | 17:32 | KAITOUSDT | LONG | ongoing | осторожно 69% |
 | 446 | 13.07 | 08:08 | MORPHOUSDT | SHORT | ongoing | осторожно 60% |
 | 445 | 12.07 | 22:09 | MORPHOUSDT | SHORT | ongoing | осторожно 63% |
 | 444 | 12.07 | 15:31 | BLUAIUSDT | LONG | ongoing | осторожно 60% |
@@ -100,12 +101,11 @@ Generated: 2026-07-13T12:00:01Z
 | 400 | 08.07 | 21:15 | TAOUSDT | SHORT | Sideways | осторожно 65% |
 | 399 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 | 398 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
-| 397 | 08.07 | 00:30 | YFIUSDT | LONG | SL_clean | входить 89% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-07-14 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-13 12:30 UTC
-- mmscan-snapshot: next run 2026-07-13 18:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-13 18:30 UTC
+- mmscan-snapshot: next run 2026-07-14 00:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
