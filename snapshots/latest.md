@@ -1,24 +1,24 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-18T18:00:01Z
+Generated: 2026-07-19T00:00:01Z
 
 ## Listener Health
 - systemd status: **activating**
 - MainPID: 0
-- Uptime: 0.0h (active since Sat 2026-07-18 17:59:43 UTC)
+- Uptime: 0.0h (active since Sat 2026-07-18 23:59:34 UTC)
 - Last signal: 2026-07-18T04:08:18+0000 (#504 KITEUSDT SHORT, ongoing)
-- Auto-restarts (since unit start): 1419
+- Auto-restarts (since unit start): 2118
 
-## Health 24h (window: 2026-07-17T18:00:01Z → 2026-07-18T18:00:01Z)
-- New signals: 10 (LONG 2 / SHORT 8)
+## Health 24h (window: 2026-07-18T00:00:01Z → 2026-07-19T00:00:01Z)
+- New signals: 5 (LONG 0 / SHORT 5)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 10
+- Ongoing: 5
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 0.0h, restarts: 1419
+- Listener uptime: 0.0h, restarts: 2118
 - Last closer: 2026-07-18T03:00:22Z
-- Last backfill: 2026-07-18T17:30:02Z
-- Anomalies: listener рестартов: 1419; ongoing >24h без закрытия: 11
+- Last backfill: 2026-07-18T23:30:01Z
+- Anomalies: listener рестартов: 2118; ongoing >24h без закрытия: 16
 
-## Health 7d (window: 2026-07-11T18:00:01Z → 2026-07-18T18:00:01Z)
+## Health 7d (window: 2026-07-12T00:00:01Z → 2026-07-19T00:00:01Z)
 - New signals: 71 (~10.1/day)
 - Closed: 50 (TP 25, SL 21, SL→rev 0, Sideways 4, N/A 0)
 - Ongoing: 21
@@ -104,8 +104,8 @@ Generated: 2026-07-18T18:00:01Z
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-07-19 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-18 18:30 UTC
-- mmscan-snapshot: next run 2026-07-19 00:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-19 00:30 UTC
+- mmscan-snapshot: next run 2026-07-19 06:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
