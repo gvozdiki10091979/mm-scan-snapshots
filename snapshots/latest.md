@@ -1,29 +1,29 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-22T18:00:01Z
+Generated: 2026-07-23T00:00:01Z
 
 ## Listener Health
-- systemd status: **active**
-- MainPID: 3459619
-- Uptime: 29.7h (active since Tue 2026-07-21 12:17:35 UTC)
+- systemd status: **activating**
+- MainPID: 0
+- Uptime: 0.0h (active since Wed 2026-07-22 23:59:47 UTC)
 - Last signal: 2026-07-22T13:36:44+0000 (#534 MUUUSDT LONG, ongoing)
-- Auto-restarts (since unit start): 9135
+- Auto-restarts (since unit start): 9776
 
-## Health 24h (window: 2026-07-21T18:00:01Z → 2026-07-22T18:00:01Z)
-- New signals: 10 (LONG 6 / SHORT 4)
+## Health 24h (window: 2026-07-22T00:00:01Z → 2026-07-23T00:00:01Z)
+- New signals: 8 (LONG 4 / SHORT 4)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 10
+- Ongoing: 8
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 29.7h, restarts: 9135
+- Listener uptime: 0.0h, restarts: 9776
 - Last closer: 2026-07-22T03:00:07Z
-- Last backfill: 2026-07-22T17:30:02Z
-- Anomalies: listener рестартов: 9135; ongoing >24h без закрытия: 4
+- Last backfill: 2026-07-22T23:30:02Z
+- Anomalies: listener рестартов: 9776; ongoing >24h без закрытия: 6
 
-## Health 7d (window: 2026-07-15T18:00:01Z → 2026-07-22T18:00:01Z)
-- New signals: 68 (~9.7/day)
-- Closed: 54 (TP 35, SL 10, SL→rev 0, Sideways 9, N/A 0)
+## Health 7d (window: 2026-07-16T00:00:01Z → 2026-07-23T00:00:01Z)
+- New signals: 66 (~9.4/day)
+- Closed: 52 (TP 33, SL 10, SL→rev 0, Sideways 9, N/A 0)
 - Ongoing: 14
-- TP rate 7d: 77.8%
-- Listener uptime 7d: 17.7% (continuous since unit start)
+- TP rate 7d: 76.7%
+- Listener uptime 7d: 0.0% (continuous since unit start)
 
 ## Shadow Journal Live
 - Total signals: 534
@@ -104,8 +104,8 @@ Generated: 2026-07-22T18:00:01Z
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-07-23 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-22 18:30 UTC
-- mmscan-snapshot: next run 2026-07-23 00:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-23 00:30 UTC
+- mmscan-snapshot: next run 2026-07-23 06:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
