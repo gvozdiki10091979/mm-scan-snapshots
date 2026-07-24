@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-24T00:00:01Z
+Generated: 2026-07-24T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 3826545
-- Uptime: 4.1h (active since Thu 2026-07-23 19:52:31 UTC)
-- Last signal: 2026-07-23T22:41:17+0000 (#555 MUUSDT LONG, ongoing)
+- Uptime: 10.1h (active since Thu 2026-07-23 19:52:31 UTC)
+- Last signal: 2026-07-24T05:11:47+0000 (#557 CBRSUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 12064
 
-## Health 24h (window: 2026-07-23T00:00:01Z → 2026-07-24T00:00:01Z)
-- New signals: 20 (LONG 9 / SHORT 11)
+## Health 24h (window: 2026-07-23T06:00:01Z → 2026-07-24T06:00:01Z)
+- New signals: 20 (LONG 10 / SHORT 10)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
 - Ongoing: 20
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 4.1h, restarts: 12064
-- Last closer: 2026-07-23T03:00:13Z
-- Last backfill: 2026-07-23T23:30:02Z
+- Listener uptime: 10.1h, restarts: 12064
+- Last closer: 2026-07-24T03:00:08Z
+- Last backfill: 2026-07-24T05:30:02Z
 - Anomalies: listener рестартов: 12064
 
-## Health 7d (window: 2026-07-17T00:00:01Z → 2026-07-24T00:00:01Z)
-- New signals: 72 (~10.3/day)
-- Closed: 52 (TP 31, SL 8, SL→rev 0, Sideways 13, N/A 0)
+## Health 7d (window: 2026-07-17T06:00:01Z → 2026-07-24T06:00:01Z)
+- New signals: 70 (~10.0/day)
+- Closed: 50 (TP 29, SL 7, SL→rev 0, Sideways 14, N/A 0)
 - Ongoing: 20
-- TP rate 7d: 79.5%
-- Listener uptime 7d: 2.4% (continuous since unit start)
+- TP rate 7d: 80.6%
+- Listener uptime 7d: 6.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 555
-- Closed: 535 (TP_clean 274, SL_clean 184, SL→reverse 0, Sideways 77, N/A 0)
+- Total signals: 557
+- Closed: 537 (TP_clean 275, SL_clean 184, SL→reverse 0, Sideways 78, N/A 0)
 - Ongoing (<24h): 20
-- TP rate: 59.8% decided (TP/(TP+SL)) · 51.2% pointwise (excl N/A)
+- TP rate: 59.9% decided (TP/(TP+SL)) · 51.2% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,6 +51,8 @@ Generated: 2026-07-24T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 557 | 24.07 | 08:11 | CBRSUSDT | LONG | ongoing | осторожно 88% |
+| 556 | 24.07 | 05:03 | HOMEUSDT | LONG | ongoing | осторожно 61% |
 | 555 | 24.07 | 01:41 | MUUSDT | LONG | ongoing | осторожно 62% |
 | 554 | 24.07 | 01:06 | COINUSDT | SHORT | ongoing | осторожно 70% |
 | 553 | 24.07 | 00:38 | HYPEUSDT | SHORT | ongoing | осторожно 61% |
@@ -58,8 +60,8 @@ Generated: 2026-07-24T00:00:01Z
 | 551 | 23.07 | 23:33 | LITUSDT | SHORT | ongoing | осторожно 62% |
 | 550 | 23.07 | 23:31 | LAUSDT | LONG | ongoing | осторожно 62% |
 | 549 | 22.07 | 22:04 | SMCIUSDT | LONG | TP_clean | осторожно 74% |
-| 548 | 23.07 | 03:08 | XMRUSDT | LONG | ongoing | осторожно 66% |
-| 547 | 23.07 | 03:09 | MONUSDT | SHORT | ongoing | осторожно 61% |
+| 548 | 23.07 | 03:08 | XMRUSDT | LONG | Sideways | осторожно 66% |
+| 547 | 23.07 | 03:09 | MONUSDT | SHORT | TP_clean | осторожно 61% |
 | 546 | 23.07 | 09:05 | MONUSDT | SHORT | ongoing | осторожно 78% |
 | 545 | 23.07 | 10:11 | MORPHOUSDT | SHORT | ongoing | осторожно 62% |
 | 544 | 23.07 | 10:34 | VVVUSDT | SHORT | ongoing | осторожно 73% |
@@ -99,13 +101,11 @@ Generated: 2026-07-24T00:00:01Z
 | 510 | 20.07 | 06:04 | ACEUSDT | LONG | SL_clean | осторожно 61% |
 | 509 | 20.07 | 13:35 | SAMSUNGUSDT | LONG | TP_clean | осторожно 60% |
 | 508 | 20.07 | 21:39 | BILLUSDT | SHORT | TP_clean | осторожно 73% |
-| 507 | 21.07 | 06:34 | SKHYUSDT | LONG | TP_clean | осторожно 74% |
-| 506 | 21.07 | 09:04 | 1000BONKUSDT | LONG | SL_clean | осторожно 64% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-07-24 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-24 00:30 UTC
-- mmscan-snapshot: next run 2026-07-24 06:00 UTC
+- mmscan-daily-closer: next run 2026-07-25 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-24 06:30 UTC
+- mmscan-snapshot: next run 2026-07-24 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
