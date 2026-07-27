@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-27T00:00:01Z
+Generated: 2026-07-27T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 3826545
-- Uptime: 76.1h (active since Thu 2026-07-23 19:52:31 UTC)
+- Uptime: 82.1h (active since Thu 2026-07-23 19:52:31 UTC)
 - Last signal: 2026-07-26T22:32:33+0000 (#593 ACEUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 12064
 
-## Health 24h (window: 2026-07-26T00:00:01Z → 2026-07-27T00:00:01Z)
-- New signals: 9 (LONG 6 / SHORT 3)
+## Health 24h (window: 2026-07-26T06:00:01Z → 2026-07-27T06:00:01Z)
+- New signals: 8 (LONG 6 / SHORT 2)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 9
+- Ongoing: 8
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 76.1h, restarts: 12064
-- Last closer: 2026-07-26T03:00:34Z
-- Last backfill: 2026-07-26T23:30:02Z
-- Anomalies: listener рестартов: 12064; ongoing >24h без закрытия: 7
+- Listener uptime: 82.1h, restarts: 12064
+- Last closer: 2026-07-27T03:00:17Z
+- Last backfill: 2026-07-27T05:30:02Z
+- Anomalies: listener рестартов: 12064
 
-## Health 7d (window: 2026-07-20T00:00:01Z → 2026-07-27T00:00:01Z)
-- New signals: 77 (~11.0/day)
-- Closed: 61 (TP 31, SL 14, SL→rev 0, Sideways 16, N/A 0)
-- Ongoing: 16
-- TP rate 7d: 68.9%
-- Listener uptime 7d: 45.3% (continuous since unit start)
+## Health 7d (window: 2026-07-20T06:00:01Z → 2026-07-27T06:00:01Z)
+- New signals: 75 (~10.7/day)
+- Closed: 67 (TP 34, SL 15, SL→rev 0, Sideways 18, N/A 0)
+- Ongoing: 8
+- TP rate 7d: 69.4%
+- Listener uptime 7d: 48.9% (continuous since unit start)
 
 ## Shadow Journal Live
 - Total signals: 593
-- Closed: 577 (TP_clean 293, SL_clean 195, SL→reverse 0, Sideways 89, N/A 0)
-- Ongoing (<24h): 16
-- TP rate: 60.0% decided (TP/(TP+SL)) · 50.8% pointwise (excl N/A)
+- Closed: 585 (TP_clean 297, SL_clean 197, SL→reverse 0, Sideways 91, N/A 0)
+- Ongoing (<24h): 8
+- TP rate: 60.1% decided (TP/(TP+SL)) · 50.8% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -59,14 +59,14 @@ Generated: 2026-07-27T00:00:01Z
 | 588 | 26.07 | 19:30 | AKEUSDT | LONG | ongoing | осторожно 61% |
 | 587 | 26.07 | 17:00 | CROSSUSDT | LONG | ongoing | осторожно 67% |
 | 586 | 26.07 | 12:35 | VELVETUSDT | SHORT | ongoing | осторожно 61% |
-| 585 | 26.07 | 03:01 | ERAUSDT | SHORT | ongoing | осторожно 62% |
-| 584 | 25.07 | 23:38 | WLDUSDT | SHORT | ongoing | осторожно 70% |
-| 583 | 25.07 | 21:05 | LAUSDT | SHORT | ongoing | осторожно 70% |
-| 582 | 25.07 | 17:04 | BZUSDT | SHORT | ongoing | осторожно 67% |
-| 581 | 25.07 | 17:03 | CLUSDT | SHORT | ongoing | осторожно 66% |
-| 580 | 25.07 | 09:37 | CRVUSDT | SHORT | ongoing | осторожно 62% |
-| 579 | 25.07 | 08:37 | SKHYNIXUSDT | SHORT | ongoing | осторожно 62% |
-| 578 | 25.07 | 07:01 | TNSRUSDT | LONG | ongoing | осторожно 73% |
+| 585 | 26.07 | 03:01 | ERAUSDT | SHORT | TP_clean | осторожно 62% |
+| 584 | 25.07 | 23:38 | WLDUSDT | SHORT | TP_clean | осторожно 70% |
+| 583 | 25.07 | 21:05 | LAUSDT | SHORT | SL_clean | осторожно 70% |
+| 582 | 25.07 | 17:04 | BZUSDT | SHORT | TP_clean | осторожно 67% |
+| 581 | 25.07 | 17:03 | CLUSDT | SHORT | Sideways | осторожно 66% |
+| 580 | 25.07 | 09:37 | CRVUSDT | SHORT | Sideways | осторожно 62% |
+| 579 | 25.07 | 08:37 | SKHYNIXUSDT | SHORT | SL_clean | осторожно 62% |
+| 578 | 25.07 | 07:01 | TNSRUSDT | LONG | TP_clean | осторожно 73% |
 | 577 | 25.07 | 03:12 | AAVEUSDT | SHORT | Sideways | осторожно 81% |
 | 576 | 25.07 | 01:05 | GWEIUSDT | LONG | TP_clean | осторожно 68% |
 | 575 | 25.07 | 00:35 | B2USDT | SHORT | TP_clean | входить 81% |
@@ -103,9 +103,9 @@ Generated: 2026-07-27T00:00:01Z
 | 544 | 23.07 | 10:34 | VVVUSDT | SHORT | TP_clean | осторожно 73% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-07-27 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-27 00:30 UTC
-- mmscan-snapshot: next run 2026-07-27 06:00 UTC
+- mmscan-daily-closer: next run 2026-07-28 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-27 06:30 UTC
+- mmscan-snapshot: next run 2026-07-27 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
