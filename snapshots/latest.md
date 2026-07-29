@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-07-29T06:00:01Z
+Generated: 2026-07-29T12:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 3826545
-- Uptime: 130.1h (active since Thu 2026-07-23 19:52:31 UTC)
-- Last signal: 2026-07-29T03:37:15+0000 (#637 DASHUSDT SHORT, ongoing)
+- Uptime: 136.1h (active since Thu 2026-07-23 19:52:31 UTC)
+- Last signal: 2026-07-29T11:04:40+0000 (#645 AVAXUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 12064
 
-## Health 24h (window: 2026-07-28T06:00:01Z → 2026-07-29T06:00:01Z)
-- New signals: 28 (LONG 4 / SHORT 24)
+## Health 24h (window: 2026-07-28T12:00:01Z → 2026-07-29T12:00:01Z)
+- New signals: 25 (LONG 3 / SHORT 22)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 28
+- Ongoing: 25
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 130.1h, restarts: 12064
+- Listener uptime: 136.1h, restarts: 12064
 - Last closer: 2026-07-29T03:00:19Z
-- Last backfill: 2026-07-29T05:30:02Z
-- Anomalies: listener рестартов: 12064; ongoing >24h без закрытия: 7
+- Last backfill: 2026-07-29T11:30:02Z
+- Anomalies: listener рестартов: 12064; ongoing >24h без закрытия: 18
 
-## Health 7d (window: 2026-07-22T06:00:01Z → 2026-07-29T06:00:01Z)
-- New signals: 110 (~15.7/day)
-- Closed: 75 (TP 41, SL 19, SL→rev 0, Sideways 15, N/A 0)
-- Ongoing: 35
-- TP rate 7d: 68.3%
-- Listener uptime 7d: 77.4% (continuous since unit start)
+## Health 7d (window: 2026-07-22T12:00:01Z → 2026-07-29T12:00:01Z)
+- New signals: 113 (~16.1/day)
+- Closed: 70 (TP 38, SL 18, SL→rev 0, Sideways 14, N/A 0)
+- Ongoing: 43
+- TP rate 7d: 67.9%
+- Listener uptime 7d: 81.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 637
+- Total signals: 645
 - Closed: 602 (TP_clean 309, SL_clean 202, SL→reverse 0, Sideways 91, N/A 0)
-- Ongoing (<24h): 35
+- Ongoing (<24h): 43
 - TP rate: 60.5% decided (TP/(TP+SL)) · 51.3% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,14 @@ Generated: 2026-07-29T06:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 645 | 29.07 | 14:04 | AVAXUSDT | SHORT | ongoing | осторожно 72% |
+| 644 | 29.07 | 13:38 | BEATUSDT | SHORT | ongoing | осторожно 65% |
+| 643 | 29.07 | 12:37 | MVLLUSDT | SHORT | ongoing | осторожно 60% |
+| 642 | 29.07 | 12:03 | KAITOUSDT | SHORT | ongoing | осторожно 73% |
+| 641 | 29.07 | 12:01 | EULUSDT | SHORT | ongoing | осторожно 60% |
+| 640 | 29.07 | 11:42 | SOONUSDT | LONG | ongoing | осторожно 68% |
+| 639 | 29.07 | 09:31 | PEOPLEUSDT | SHORT | ongoing | осторожно 62% |
+| 638 | 29.07 | 09:14 | TAOUSDT | SHORT | ongoing | осторожно 63% |
 | 637 | 29.07 | 06:37 | DASHUSDT | SHORT | ongoing | осторожно 74% |
 | 636 | 29.07 | 06:10 | LITUSDT | SHORT | ongoing | осторожно 66% |
 | 635 | 29.07 | 04:35 | DIAUSDT | SHORT | ongoing | осторожно 62% |
@@ -93,19 +101,11 @@ Generated: 2026-07-29T06:00:01Z
 | 598 | 27.07 | 18:05 | OPUSDT | SHORT | TP_clean | осторожно 60% |
 | 597 | 27.07 | 16:04 | XMRUSDT | SHORT | TP_clean | осторожно 72% |
 | 596 | 27.07 | 12:07 | IRYSUSDT | LONG | TP_clean | осторожно 85% |
-| 595 | 27.07 | 12:01 | NILUSDT | LONG | TP_clean | осторожно 69% |
-| 594 | 27.07 | 10:31 | EULUSDT | LONG | SL_clean | осторожно 72% |
-| 593 | 27.07 | 01:32 | ACEUSDT | SHORT | TP_clean | осторожно 67% |
-| 592 | 27.07 | 01:32 | ESPUSDT | LONG | TP_clean | осторожно 61% |
-| 591 | 27.07 | 01:03 | EULUSDT | LONG | SL_clean | осторожно 67% |
-| 590 | 26.07 | 22:31 | CROSSUSDT | LONG | TP_clean | осторожно 63% |
-| 589 | 26.07 | 20:01 | ESPUSDT | LONG | TP_clean | осторожно 61% |
-| 588 | 26.07 | 19:30 | AKEUSDT | LONG | TP_clean | осторожно 61% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-07-30 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-07-29 06:30 UTC
-- mmscan-snapshot: next run 2026-07-29 12:00 UTC
+- mmscan-hourly-backfill: next run 2026-07-29 12:30 UTC
+- mmscan-snapshot: next run 2026-07-29 18:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
