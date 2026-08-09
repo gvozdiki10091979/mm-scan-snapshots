@@ -1,28 +1,28 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-08-08T18:00:02Z
+Generated: 2026-08-09T00:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 3826545
-- Uptime: 382.1h (active since Thu 2026-07-23 19:52:31 UTC)
+- Uptime: 388.1h (active since Thu 2026-07-23 19:52:31 UTC)
 - Last signal: 2026-08-08T12:35:10+0000 (#748 HYPEUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 12064
 
-## Health 24h (window: 2026-08-07T18:00:02Z → 2026-08-08T18:00:02Z)
-- New signals: 10 (LONG 6 / SHORT 4)
+## Health 24h (window: 2026-08-08T00:00:01Z → 2026-08-09T00:00:01Z)
+- New signals: 6 (LONG 4 / SHORT 2)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 10
+- Ongoing: 6
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 382.1h, restarts: 12064
+- Listener uptime: 388.1h, restarts: 12064
 - Last closer: 2026-08-08T03:00:14Z
-- Last backfill: 2026-08-08T17:30:02Z
-- Anomalies: listener рестартов: 12064; ongoing >24h без закрытия: 9
+- Last backfill: 2026-08-08T23:30:02Z
+- Anomalies: listener рестартов: 12064; ongoing >24h без закрытия: 13
 
-## Health 7d (window: 2026-08-01T18:00:02Z → 2026-08-08T18:00:02Z)
-- New signals: 73 (~10.4/day)
-- Closed: 54 (TP 27, SL 21, SL→rev 0, Sideways 6, N/A 0)
+## Health 7d (window: 2026-08-02T00:00:01Z → 2026-08-09T00:00:01Z)
+- New signals: 71 (~10.1/day)
+- Closed: 52 (TP 27, SL 20, SL→rev 0, Sideways 5, N/A 0)
 - Ongoing: 19
-- TP rate 7d: 56.2%
+- TP rate 7d: 57.4%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
@@ -104,8 +104,8 @@ Generated: 2026-08-08T18:00:02Z
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-08-09 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-08-08 18:30 UTC
-- mmscan-snapshot: next run 2026-08-09 00:00 UTC
+- mmscan-hourly-backfill: next run 2026-08-09 00:30 UTC
+- mmscan-snapshot: next run 2026-08-09 06:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
