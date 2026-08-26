@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-08-26T06:00:01Z
+Generated: 2026-08-26T12:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 862
-- Uptime: 338.2h (active since Wed 2026-08-12 03:48:33 UTC)
-- Last signal: 2026-08-26T04:06:03+0000 (#915 MVLLUSDT LONG, ongoing)
+- Uptime: 344.2h (active since Wed 2026-08-12 03:48:33 UTC)
+- Last signal: 2026-08-26T10:32:25+0000 (#921 PEOPLEUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-08-25T06:00:01Z → 2026-08-26T06:00:01Z)
-- New signals: 17 (LONG 9 / SHORT 8)
+## Health 24h (window: 2026-08-25T12:00:01Z → 2026-08-26T12:00:01Z)
+- New signals: 21 (LONG 10 / SHORT 11)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 17
+- Ongoing: 21
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 338.2h, restarts: 0
+- Listener uptime: 344.2h, restarts: 0
 - Last closer: 2026-08-26T03:00:14Z
-- Last backfill: 2026-08-26T05:30:02Z
-- Anomalies: ongoing >24h без закрытия: 3
+- Last backfill: 2026-08-26T11:30:03Z
+- Anomalies: ongoing >24h без закрытия: 5
 
-## Health 7d (window: 2026-08-19T06:00:01Z → 2026-08-26T06:00:01Z)
-- New signals: 78 (~11.1/day)
-- Closed: 58 (TP 32, SL 19, SL→rev 0, Sideways 7, N/A 0)
-- Ongoing: 20
-- TP rate 7d: 62.7%
+## Health 7d (window: 2026-08-19T12:00:01Z → 2026-08-26T12:00:01Z)
+- New signals: 81 (~11.6/day)
+- Closed: 55 (TP 31, SL 17, SL→rev 0, Sideways 7, N/A 0)
+- Ongoing: 26
+- TP rate 7d: 64.6%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 915
+- Total signals: 921
 - Closed: 895 (TP_clean 461, SL_clean 303, SL→reverse 0, Sideways 131, N/A 0)
-- Ongoing (<24h): 20
+- Ongoing (<24h): 26
 - TP rate: 60.3% decided (TP/(TP+SL)) · 51.5% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,12 @@ Generated: 2026-08-26T06:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 921 | 26.08 | 13:32 | PEOPLEUSDT | SHORT | ongoing | осторожно 71% |
+| 920 | 26.08 | 11:36 | MONUSDT | SHORT | ongoing | осторожно 61% |
+| 919 | 26.08 | 11:06 | INJUSDT | SHORT | ongoing | осторожно 68% |
+| 918 | 26.08 | 10:34 | MOVEUSDT | LONG | ongoing | осторожно 66% |
+| 917 | 26.08 | 09:39 | MRVLUSDT | LONG | ongoing | осторожно 63% |
+| 916 | 26.08 | 09:35 | ETHFIUSDT | SHORT | ongoing | осторожно 75% |
 | 915 | 26.08 | 07:06 | MVLLUSDT | LONG | ongoing | осторожно 60% |
 | 914 | 26.08 | 06:39 | DOSUSDT | SHORT | ongoing | осторожно 66% |
 | 913 | 26.08 | 02:37 | STORJUSDT | LONG | ongoing | осторожно 69% |
@@ -95,17 +101,11 @@ Generated: 2026-08-26T06:00:01Z
 | 874 | 22.08 | 17:09 | AXTIUSDT | SHORT | Sideways | осторожно 63% |
 | 873 | 22.08 | 16:31 | HEIUSDT | SHORT | TP_clean | осторожно 61% |
 | 872 | 22.08 | 08:34 | BMNRUSDT | LONG | Sideways | осторожно 61% |
-| 871 | 22.08 | 03:37 | SKHYNIXUSDT | SHORT | Sideways | осторожно 73% |
-| 870 | 22.08 | 01:09 | RKLBUSDT | SHORT | TP_clean | осторожно 60% |
-| 869 | 21.08 | 17:38 | GRVTUSDT | SHORT | SL_clean | осторожно 65% |
-| 868 | 21.08 | 16:08 | SCRTUSDT | SHORT | SL_clean | осторожно 72% |
-| 867 | 21.08 | 15:11 | LITUSDT | SHORT | SL_clean | осторожно 60% |
-| 866 | 21.08 | 11:00 | CXMTUSDT | SHORT | Sideways | входить 81% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-08-27 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-08-26 06:30 UTC
-- mmscan-snapshot: next run 2026-08-26 12:00 UTC
+- mmscan-hourly-backfill: next run 2026-08-26 12:30 UTC
+- mmscan-snapshot: next run 2026-08-26 18:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
