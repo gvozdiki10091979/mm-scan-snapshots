@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-09-02T12:00:01Z
+Generated: 2026-09-02T18:00:02Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 862
-- Uptime: 512.2h (active since Wed 2026-08-12 03:48:33 UTC)
-- Last signal: 2026-09-02T08:02:23+0000 (#997 KORUUSDT SHORT, ongoing)
+- Uptime: 518.2h (active since Wed 2026-08-12 03:48:33 UTC)
+- Last signal: 2026-09-02T17:32:35+0000 (#1002 FLOCKUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-09-01T12:00:01Z → 2026-09-02T12:00:01Z)
-- New signals: 15 (LONG 6 / SHORT 9)
+## Health 24h (window: 2026-09-01T18:00:02Z → 2026-09-02T18:00:02Z)
+- New signals: 17 (LONG 6 / SHORT 11)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 15
+- Ongoing: 17
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 512.2h, restarts: 0
+- Listener uptime: 518.2h, restarts: 0
 - Last closer: 2026-09-02T03:00:24Z
-- Last backfill: 2026-09-02T11:30:02Z
-- Anomalies: ongoing >24h без закрытия: 4
+- Last backfill: 2026-09-02T17:30:02Z
+- Anomalies: ongoing >24h без закрытия: 7
 
-## Health 7d (window: 2026-08-26T12:00:01Z → 2026-09-02T12:00:01Z)
+## Health 7d (window: 2026-08-26T18:00:02Z → 2026-09-02T18:00:02Z)
 - New signals: 76 (~10.9/day)
-- Closed: 57 (TP 19, SL 32, SL→rev 0, Sideways 6, N/A 0)
-- Ongoing: 19
-- TP rate 7d: 37.3%
+- Closed: 52 (TP 17, SL 29, SL→rev 0, Sideways 6, N/A 0)
+- Ongoing: 24
+- TP rate 7d: 37.0%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 997
+- Total signals: 1002
 - Closed: 978 (TP_clean 494, SL_clean 341, SL→reverse 0, Sideways 143, N/A 0)
-- Ongoing (<24h): 19
+- Ongoing (<24h): 24
 - TP rate: 59.2% decided (TP/(TP+SL)) · 50.5% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,11 @@ Generated: 2026-09-02T12:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 1002 | 02.09 | 20:32 | FLOCKUSDT | SHORT | ongoing | осторожно 64% |
+| 1001 | 02.09 | 20:03 | TRUMPUSDT | SHORT | ongoing | осторожно 63% |
+| 1000 | 02.09 | 17:32 | CLUSDT | LONG | ongoing | осторожно 65% |
+| 999 | 02.09 | 16:34 | DASHUSDT | SHORT | ongoing | осторожно 76% |
+| 998 | 02.09 | 15:05 | ZECUSDT | SHORT | ongoing | осторожно 67% |
 | 997 | 02.09 | 11:02 | KORUUSDT | SHORT | ongoing | осторожно 61% |
 | 996 | 02.09 | 10:04 | CRVUSDT | LONG | ongoing | осторожно 61% |
 | 995 | 02.09 | 08:07 | AAOIUSDT | SHORT | ongoing | осторожно 65% |
@@ -96,16 +101,11 @@ Generated: 2026-09-02T12:00:01Z
 | 955 | 30.08 | 07:02 | RIVERUSDT | SHORT | TP_clean | осторожно 61% |
 | 954 | 30.08 | 02:05 | HEIUSDT | SHORT | TP_clean | осторожно 60% |
 | 953 | 29.08 | 14:35 | WLFIUSDT | SHORT | Sideways | осторожно 71% |
-| 952 | 29.08 | 12:02 | TUTUSDT | SHORT | SL_clean | осторожно 68% |
-| 951 | 29.08 | 07:00 | CRVUSDT | SHORT | TP_clean | осторожно 86% |
-| 950 | 29.08 | 04:01 | ONGUSDT | SHORT | SL_clean | осторожно 67% |
-| 949 | 29.08 | 02:36 | COTIUSDT | LONG | TP_clean | осторожно 61% |
-| 948 | 29.08 | 02:04 | RENDERUSDT | SHORT | TP_clean | осторожно 67% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-09-03 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-09-02 12:30 UTC
-- mmscan-snapshot: next run 2026-09-02 18:00 UTC
+- mmscan-hourly-backfill: next run 2026-09-02 18:30 UTC
+- mmscan-snapshot: next run 2026-09-03 00:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
