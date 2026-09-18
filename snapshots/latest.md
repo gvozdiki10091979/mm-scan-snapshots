@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-09-18T00:00:02Z
+Generated: 2026-09-18T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 862
-- Uptime: 884.2h (active since Wed 2026-08-12 03:48:33 UTC)
-- Last signal: 2026-09-17T22:31:02+0000 (#1174 DASHUSDT LONG, ongoing)
+- Uptime: 890.2h (active since Wed 2026-08-12 03:48:33 UTC)
+- Last signal: 2026-09-18T01:01:08+0000 (#1175 AEROUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-09-17T00:00:02Z → 2026-09-18T00:00:02Z)
-- New signals: 9 (LONG 5 / SHORT 4)
+## Health 24h (window: 2026-09-17T06:00:01Z → 2026-09-18T06:00:01Z)
+- New signals: 7 (LONG 4 / SHORT 3)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 9
+- Ongoing: 7
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 884.2h, restarts: 0
-- Last closer: 2026-09-17T03:00:29Z
-- Last backfill: 2026-09-17T23:30:02Z
-- Anomalies: ongoing >24h без закрытия: 15
+- Listener uptime: 890.2h, restarts: 0
+- Last closer: 2026-09-18T03:00:32Z
+- Last backfill: 2026-09-18T05:30:02Z
+- Anomalies: ongoing >24h без закрытия: 1
 
-## Health 7d (window: 2026-09-11T00:00:02Z → 2026-09-18T00:00:02Z)
-- New signals: 88 (~12.6/day)
-- Closed: 64 (TP 32, SL 21, SL→rev 0, Sideways 11, N/A 0)
-- Ongoing: 24
-- TP rate 7d: 60.4%
+## Health 7d (window: 2026-09-11T06:00:01Z → 2026-09-18T06:00:01Z)
+- New signals: 85 (~12.1/day)
+- Closed: 77 (TP 38, SL 27, SL→rev 0, Sideways 12, N/A 0)
+- Ongoing: 8
+- TP rate 7d: 58.5%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 1174
-- Closed: 1150 (TP_clean 585, SL_clean 397, SL→reverse 0, Sideways 168, N/A 0)
-- Ongoing (<24h): 24
-- TP rate: 59.6% decided (TP/(TP+SL)) · 50.9% pointwise (excl N/A)
+- Total signals: 1175
+- Closed: 1167 (TP_clean 592, SL_clean 406, SL→reverse 0, Sideways 169, N/A 0)
+- Ongoing (<24h): 8
+- TP rate: 59.3% decided (TP/(TP+SL)) · 50.7% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,6 +51,7 @@ Generated: 2026-09-18T00:00:02Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 1175 | 18.09 | 04:01 | AEROUSDT | LONG | ongoing | осторожно 64% |
 | 1174 | 18.09 | 01:31 | DASHUSDT | LONG | ongoing | осторожно 63% |
 | 1173 | 18.09 | 01:00 | TUTUSDT | LONG | ongoing | осторожно 60% |
 | 1172 | 17.09 | 22:02 | POWERUSDT | SHORT | ongoing | осторожно 61% |
@@ -58,23 +59,23 @@ Generated: 2026-09-18T00:00:02Z
 | 1170 | 17.09 | 14:08 | COINUSDT | SHORT | ongoing | осторожно 66% |
 | 1169 | 17.09 | 14:03 | KORUUSDT | LONG | ongoing | осторожно 62% |
 | 1168 | 17.09 | 06:08 | KORUUSDT | SHORT | ongoing | осторожно 62% |
-| 1167 | 17.09 | 04:02 | LAUSDT | LONG | ongoing | осторожно 61% |
-| 1166 | 17.09 | 04:00 | BRUSDT | LONG | ongoing | осторожно 67% |
-| 1165 | 17.09 | 01:31 | CRVUSDT | SHORT | ongoing | осторожно 72% |
-| 1164 | 17.09 | 01:04 | KORUUSDT | SHORT | ongoing | осторожно 62% |
-| 1163 | 16.09 | 21:36 | LITUSDT | SHORT | ongoing | осторожно 74% |
-| 1162 | 16.09 | 21:08 | CRCLUSDT | SHORT | ongoing | осторожно 70% |
-| 1161 | 16.09 | 20:41 | SOLUSDT | SHORT | ongoing | осторожно 70% |
-| 1160 | 16.09 | 20:40 | ORDIUSDT | SHORT | ongoing | осторожно 63% |
-| 1159 | 16.09 | 20:04 | ATOMUSDT | SHORT | ongoing | осторожно 68% |
-| 1158 | 16.09 | 16:37 | ONUSDT | SHORT | ongoing | осторожно 89% |
-| 1157 | 16.09 | 16:05 | XMRUSDT | SHORT | ongoing | осторожно 61% |
-| 1156 | 16.09 | 14:07 | SOLUSDT | SHORT | ongoing | осторожно 69% |
-| 1155 | 16.09 | 13:38 | KAITOUSDT | SHORT | ongoing | осторожно 65% |
-| 1154 | 16.09 | 12:06 | AKEUSDT | LONG | ongoing | осторожно 66% |
-| 1153 | 16.09 | 10:38 | 1000BONKUSDT | SHORT | ongoing | осторожно 61% |
-| 1152 | 16.09 | 08:06 | VETUSDT | SHORT | ongoing | осторожно 60% |
-| 1151 | 16.09 | 06:12 | BNCUSDT | SHORT | ongoing | осторожно 61% |
+| 1167 | 17.09 | 04:02 | LAUSDT | LONG | SL_clean | осторожно 61% |
+| 1166 | 17.09 | 04:00 | BRUSDT | LONG | TP_clean | осторожно 67% |
+| 1165 | 17.09 | 01:31 | CRVUSDT | SHORT | SL_clean | осторожно 72% |
+| 1164 | 17.09 | 01:04 | KORUUSDT | SHORT | SL_clean | осторожно 62% |
+| 1163 | 16.09 | 21:36 | LITUSDT | SHORT | TP_clean | осторожно 74% |
+| 1162 | 16.09 | 21:08 | CRCLUSDT | SHORT | TP_clean | осторожно 70% |
+| 1161 | 16.09 | 20:41 | SOLUSDT | SHORT | SL_clean | осторожно 70% |
+| 1160 | 16.09 | 20:40 | ORDIUSDT | SHORT | SL_clean | осторожно 63% |
+| 1159 | 16.09 | 20:04 | ATOMUSDT | SHORT | SL_clean | осторожно 68% |
+| 1158 | 16.09 | 16:37 | ONUSDT | SHORT | SL_clean | осторожно 89% |
+| 1157 | 16.09 | 16:05 | XMRUSDT | SHORT | TP_clean | осторожно 61% |
+| 1156 | 16.09 | 14:07 | SOLUSDT | SHORT | SL_clean | осторожно 69% |
+| 1155 | 16.09 | 13:38 | KAITOUSDT | SHORT | SL_clean | осторожно 65% |
+| 1154 | 16.09 | 12:06 | AKEUSDT | LONG | TP_clean | осторожно 66% |
+| 1153 | 16.09 | 10:38 | 1000BONKUSDT | SHORT | TP_clean | осторожно 61% |
+| 1152 | 16.09 | 08:06 | VETUSDT | SHORT | TP_clean | осторожно 60% |
+| 1151 | 16.09 | 06:12 | BNCUSDT | SHORT | Sideways | осторожно 61% |
 | 1150 | 16.09 | 05:04 | AXLUSDT | SHORT | TP_clean | осторожно 76% |
 | 1149 | 16.09 | 03:34 | ETHFIUSDT | SHORT | TP_clean | осторожно 66% |
 | 1148 | 16.09 | 00:37 | HYPEUSDT | SHORT | SL_clean | осторожно 62% |
@@ -100,12 +101,11 @@ Generated: 2026-09-18T00:00:02Z
 | 1128 | 14.09 | 19:05 | ORCLUSDT | SHORT | Sideways | осторожно 68% |
 | 1127 | 14.09 | 16:03 | MTLUSDT | LONG | TP_clean | осторожно 61% |
 | 1126 | 14.09 | 14:38 | ALGOUSDT | SHORT | Sideways | осторожно 73% |
-| 1125 | 14.09 | 14:32 | TUSDT | LONG | TP_clean | осторожно 61% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-09-18 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-09-18 00:30 UTC
-- mmscan-snapshot: next run 2026-09-18 06:00 UTC
+- mmscan-daily-closer: next run 2026-09-19 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-09-18 06:30 UTC
+- mmscan-snapshot: next run 2026-09-18 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
