@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-10-02T00:00:01Z
+Generated: 2026-10-02T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 862
-- Uptime: 1220.2h (active since Wed 2026-08-12 03:48:33 UTC)
-- Last signal: 2026-10-01T23:30:43+0000 (#1344 COTIUSDT LONG, ongoing)
+- Uptime: 1226.2h (active since Wed 2026-08-12 03:48:33 UTC)
+- Last signal: 2026-10-02T04:01:08+0000 (#1347 MEGAUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-10-01T00:00:01Z → 2026-10-02T00:00:01Z)
-- New signals: 16 (LONG 8 / SHORT 8)
+## Health 24h (window: 2026-10-01T06:00:01Z → 2026-10-02T06:00:01Z)
+- New signals: 17 (LONG 9 / SHORT 8)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 16
+- Ongoing: 17
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 1220.2h, restarts: 0
-- Last closer: 2026-10-01T03:00:34Z
-- Last backfill: 2026-10-01T23:30:02Z
-- Anomalies: ongoing >24h без закрытия: 7
+- Listener uptime: 1226.2h, restarts: 0
+- Last closer: 2026-10-02T03:00:24Z
+- Last backfill: 2026-10-02T05:30:02Z
+- Anomalies: ongoing >24h без закрытия: 1
 
-## Health 7d (window: 2026-09-25T00:00:01Z → 2026-10-02T00:00:01Z)
-- New signals: 82 (~11.7/day)
-- Closed: 59 (TP 26, SL 30, SL→rev 0, Sideways 3, N/A 0)
-- Ongoing: 23
-- TP rate 7d: 46.4%
+## Health 7d (window: 2026-09-25T06:00:01Z → 2026-10-02T06:00:01Z)
+- New signals: 83 (~11.9/day)
+- Closed: 65 (TP 29, SL 32, SL→rev 0, Sideways 4, N/A 0)
+- Ongoing: 18
+- TP rate 7d: 47.5%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 1344
-- Closed: 1321 (TP_clean 669, SL_clean 473, SL→reverse 0, Sideways 179, N/A 0)
-- Ongoing (<24h): 23
+- Total signals: 1347
+- Closed: 1329 (TP_clean 673, SL_clean 476, SL→reverse 0, Sideways 180, N/A 0)
+- Ongoing (<24h): 18
 - TP rate: 58.6% decided (TP/(TP+SL)) · 50.6% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,9 @@ Generated: 2026-10-02T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 1347 | 02.10 | 07:01 | MEGAUSDT | LONG | ongoing | осторожно 63% |
+| 1346 | 02.10 | 06:09 | IBMUSDT | LONG | ongoing | осторожно 67% |
+| 1345 | 02.10 | 05:03 | ACEUSDT | SHORT | ongoing | осторожно 62% |
 | 1344 | 02.10 | 02:30 | COTIUSDT | LONG | ongoing | осторожно 77% |
 | 1343 | 02.10 | 01:04 | SKHYUSDT | LONG | ongoing | осторожно 61% |
 | 1342 | 02.10 | 01:01 | SUIUSDT | LONG | ongoing | осторожно 65% |
@@ -66,14 +69,14 @@ Generated: 2026-10-02T00:00:01Z
 | 1332 | 01.10 | 13:02 | ARKUSDT | SHORT | ongoing | осторожно 74% |
 | 1331 | 01.10 | 10:05 | HYPEUSDT | LONG | ongoing | осторожно 66% |
 | 1330 | 01.10 | 07:04 | RUNEUSDT | SHORT | ongoing | осторожно 66% |
-| 1329 | 01.10 | 03:01 | TRBUSDT | LONG | ongoing | осторожно 64% |
-| 1328 | 30.09 | 21:15 | USUSDT | SHORT | ongoing | входить 84% |
-| 1327 | 30.09 | 19:33 | METUSDT | LONG | ongoing | осторожно 63% |
-| 1326 | 30.09 | 15:36 | INJUSDT | LONG | ongoing | осторожно 67% |
-| 1325 | 30.09 | 14:34 | FFUSDT | SHORT | ongoing | осторожно 63% |
-| 1324 | 30.09 | 14:05 | EIGENUSDT | SHORT | ongoing | осторожно 61% |
-| 1323 | 30.09 | 13:01 | RAREUSDT | SHORT | ongoing | осторожно 63% |
-| 1322 | 30.09 | 09:01 | TAOUSDT | LONG | ongoing | осторожно 62% |
+| 1329 | 01.10 | 03:01 | TRBUSDT | LONG | SL_clean | осторожно 64% |
+| 1328 | 30.09 | 21:15 | USUSDT | SHORT | TP_clean | входить 84% |
+| 1327 | 30.09 | 19:33 | METUSDT | LONG | SL_clean | осторожно 63% |
+| 1326 | 30.09 | 15:36 | INJUSDT | LONG | SL_clean | осторожно 67% |
+| 1325 | 30.09 | 14:34 | FFUSDT | SHORT | Sideways | осторожно 63% |
+| 1324 | 30.09 | 14:05 | EIGENUSDT | SHORT | TP_clean | осторожно 61% |
+| 1323 | 30.09 | 13:01 | RAREUSDT | SHORT | TP_clean | осторожно 63% |
+| 1322 | 30.09 | 09:01 | TAOUSDT | LONG | TP_clean | осторожно 62% |
 | 1321 | 30.09 | 05:32 | NMRUSDT | LONG | SL_clean | осторожно 66% |
 | 1320 | 30.09 | 02:10 | AAOIUSDT | SHORT | TP_clean | осторожно 67% |
 | 1319 | 29.09 | 21:30 | NILUSDT | SHORT | TP_clean | осторожно 60% |
@@ -98,14 +101,11 @@ Generated: 2026-10-02T00:00:01Z
 | 1300 | 28.09 | 17:32 | CAKEUSDT | SHORT | TP_clean | осторожно 67% |
 | 1299 | 28.09 | 13:30 | ZAMAUSDT | SHORT | TP_clean | осторожно 67% |
 | 1298 | 28.09 | 12:30 | SAGAUSDT | SHORT | SL_clean | осторожно 84% |
-| 1297 | 28.09 | 11:31 | DASHUSDT | SHORT | TP_clean | осторожно 61% |
-| 1296 | 28.09 | 10:38 | ARXUSDT | SHORT | SL_clean | осторожно 75% |
-| 1295 | 28.09 | 08:06 | ZECUSDT | SHORT | TP_clean | осторожно 68% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-10-02 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-10-02 00:30 UTC
-- mmscan-snapshot: next run 2026-10-02 06:00 UTC
+- mmscan-daily-closer: next run 2026-10-03 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-10-02 06:30 UTC
+- mmscan-snapshot: next run 2026-10-02 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
