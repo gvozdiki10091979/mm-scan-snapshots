@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-10-12T18:00:01Z
+Generated: 2026-10-13T00:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 862
-- Uptime: 1478.2h (active since Wed 2026-08-12 03:48:33 UTC)
-- Last signal: 2026-10-12T17:12:36+0000 (#1486 CAKEUSDT SHORT, ongoing)
+- Uptime: 1484.2h (active since Wed 2026-08-12 03:48:33 UTC)
+- Last signal: 2026-10-12T19:40:30+0000 (#1489 ARUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-10-11T18:00:01Z → 2026-10-12T18:00:01Z)
-- New signals: 11 (LONG 7 / SHORT 4)
+## Health 24h (window: 2026-10-12T00:00:01Z → 2026-10-13T00:00:01Z)
+- New signals: 10 (LONG 5 / SHORT 5)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 11
+- Ongoing: 10
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 1478.2h, restarts: 0
+- Listener uptime: 1484.2h, restarts: 0
 - Last closer: 2026-10-12T03:00:18Z
-- Last backfill: 2026-10-12T17:30:02Z
-- Anomalies: ongoing >24h без закрытия: 5
+- Last backfill: 2026-10-12T23:30:02Z
+- Anomalies: ongoing >24h без закрытия: 9
 
-## Health 7d (window: 2026-10-05T18:00:01Z → 2026-10-12T18:00:01Z)
-- New signals: 98 (~14.0/day)
-- Closed: 82 (TP 46, SL 22, SL→rev 0, Sideways 14, N/A 0)
-- Ongoing: 16
-- TP rate 7d: 67.6%
+## Health 7d (window: 2026-10-06T00:00:01Z → 2026-10-13T00:00:01Z)
+- New signals: 96 (~13.7/day)
+- Closed: 77 (TP 44, SL 19, SL→rev 0, Sideways 14, N/A 0)
+- Ongoing: 19
+- TP rate 7d: 69.8%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 1486
+- Total signals: 1489
 - Closed: 1470 (TP_clean 745, SL_clean 513, SL→reverse 0, Sideways 212, N/A 0)
-- Ongoing (<24h): 16
+- Ongoing (<24h): 19
 - TP rate: 59.2% decided (TP/(TP+SL)) · 50.7% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,9 @@ Generated: 2026-10-12T18:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 1489 | 12.10 | 22:40 | ARUSDT | LONG | ongoing | осторожно 63% |
+| 1488 | 12.10 | 22:09 | 1000PEPEUSDT | SHORT | ongoing | осторожно 62% |
+| 1487 | 12.10 | 22:01 | JCTUSDT | LONG | ongoing | осторожно 61% |
 | 1486 | 12.10 | 20:12 | CAKEUSDT | SHORT | ongoing | осторожно 69% |
 | 1485 | 12.10 | 16:06 | WIFUSDT | SHORT | ongoing | осторожно 72% |
 | 1484 | 12.10 | 14:07 | MUUUSDT | SHORT | ongoing | осторожно 61% |
@@ -98,14 +101,11 @@ Generated: 2026-10-12T18:00:01Z
 | 1442 | 09.10 | 12:05 | KAITOUSDT | SHORT | Sideways | осторожно 81% |
 | 1441 | 09.10 | 11:32 | MINAUSDT | SHORT | SL_clean | осторожно 61% |
 | 1440 | 09.10 | 08:02 | ORCAUSDT | SHORT | TP_clean | осторожно 68% |
-| 1439 | 09.10 | 05:04 | CAKEUSDT | SHORT | Sideways | осторожно 62% |
-| 1438 | 09.10 | 01:31 | BRUSDT | SHORT | TP_clean | осторожно 61% |
-| 1437 | 08.10 | 23:08 | NILUSDT | SHORT | Sideways | осторожно 71% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-10-13 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-10-12 18:30 UTC
-- mmscan-snapshot: next run 2026-10-13 00:00 UTC
+- mmscan-hourly-backfill: next run 2026-10-13 00:30 UTC
+- mmscan-snapshot: next run 2026-10-13 06:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
