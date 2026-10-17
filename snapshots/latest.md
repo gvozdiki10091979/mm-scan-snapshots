@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-10-17T12:00:01Z
+Generated: 2026-10-17T18:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 862
-- Uptime: 1592.2h (active since Wed 2026-08-12 03:48:33 UTC)
-- Last signal: 2026-10-17T11:38:18+0000 (#1566 ZEREBROUSDT SHORT, ongoing)
+- Uptime: 1598.2h (active since Wed 2026-08-12 03:48:33 UTC)
+- Last signal: 2026-10-17T16:40:04+0000 (#1572 ZEREBROUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 0
 
-## Health 24h (window: 2026-10-16T12:00:01Z → 2026-10-17T12:00:01Z)
-- New signals: 22 (LONG 9 / SHORT 13)
+## Health 24h (window: 2026-10-16T18:00:01Z → 2026-10-17T18:00:01Z)
+- New signals: 22 (LONG 8 / SHORT 14)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
 - Ongoing: 22
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 1592.2h, restarts: 0
+- Listener uptime: 1598.2h, restarts: 0
 - Last closer: 2026-10-17T03:00:41Z
-- Last backfill: 2026-10-17T11:30:02Z
-- Anomalies: ongoing >24h без закрытия: 2
+- Last backfill: 2026-10-17T17:30:02Z
+- Anomalies: ongoing >24h без закрытия: 8
 
-## Health 7d (window: 2026-10-10T12:00:01Z → 2026-10-17T12:00:01Z)
-- New signals: 101 (~14.4/day)
-- Closed: 77 (TP 40, SL 32, SL→rev 0, Sideways 5, N/A 0)
-- Ongoing: 24
-- TP rate 7d: 55.6%
+## Health 7d (window: 2026-10-10T18:00:01Z → 2026-10-17T18:00:01Z)
+- New signals: 106 (~15.1/day)
+- Closed: 76 (TP 39, SL 32, SL→rev 0, Sideways 5, N/A 0)
+- Ongoing: 30
+- TP rate 7d: 54.9%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 1566
+- Total signals: 1572
 - Closed: 1542 (TP_clean 782, SL_clean 543, SL→reverse 0, Sideways 217, N/A 0)
-- Ongoing (<24h): 24
+- Ongoing (<24h): 30
 - TP rate: 59.0% decided (TP/(TP+SL)) · 50.7% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,12 @@ Generated: 2026-10-17T12:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 1572 | 17.10 | 19:40 | ZEREBROUSDT | SHORT | ongoing | осторожно 64% |
+| 1571 | 17.10 | 19:31 | ALTUSDT | LONG | ongoing | осторожно 72% |
+| 1570 | 17.10 | 18:39 | CRWVUSDT | SHORT | ongoing | осторожно 62% |
+| 1569 | 17.10 | 18:36 | SUIUSDT | SHORT | ongoing | осторожно 63% |
+| 1568 | 17.10 | 18:15 | ALGOUSDT | SHORT | ongoing | осторожно 68% |
+| 1567 | 17.10 | 15:07 | AVAXUSDT | SHORT | ongoing | осторожно 64% |
 | 1566 | 17.10 | 14:38 | ZEREBROUSDT | SHORT | ongoing | осторожно 72% |
 | 1565 | 17.10 | 13:01 | KMNOUSDT | LONG | ongoing | осторожно 64% |
 | 1564 | 17.10 | 08:33 | LTCUSDT | SHORT | ongoing | осторожно 83% |
@@ -95,17 +101,11 @@ Generated: 2026-10-17T12:00:01Z
 | 1525 | 15.10 | 11:33 | ICPUSDT | SHORT | SL_clean | осторожно 60% |
 | 1524 | 15.10 | 11:10 | ZHONGJIUSDT | SHORT | TP_clean | осторожно 70% |
 | 1523 | 15.10 | 08:35 | XPLUSDT | SHORT | SL_clean | осторожно 62% |
-| 1522 | 15.10 | 08:03 | 1000BONKUSDT | SHORT | Sideways | осторожно 60% |
-| 1521 | 15.10 | 08:02 | SUIUSDT | SHORT | TP_clean | осторожно 61% |
-| 1520 | 15.10 | 08:01 | DUSKUSDT | LONG | TP_clean | осторожно 60% |
-| 1519 | 15.10 | 02:10 | DOGEUSDT | SHORT | TP_clean | осторожно 61% |
-| 1518 | 15.10 | 02:10 | ADAUSDT | SHORT | TP_clean | осторожно 60% |
-| 1517 | 15.10 | 02:09 | SOLUSDT | SHORT | TP_clean | осторожно 62% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-10-18 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-10-17 12:30 UTC
-- mmscan-snapshot: next run 2026-10-17 18:00 UTC
+- mmscan-hourly-backfill: next run 2026-10-17 18:30 UTC
+- mmscan-snapshot: next run 2026-10-18 00:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
