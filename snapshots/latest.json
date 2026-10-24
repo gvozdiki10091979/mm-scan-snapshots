@@ -1,25 +1,25 @@
 {
-  "generated_at_utc": "2026-10-24T06:00:01Z",
-  "snapshot_version": "2026-10-24T060001Z",
+  "generated_at_utc": "2026-10-24T12:00:01Z",
+  "snapshot_version": "2026-10-24T120001Z",
   "listener": {
     "status": "active",
     "main_pid": 862,
-    "uptime_hours": 1754.2,
+    "uptime_hours": 1760.2,
     "auto_restarts_since_start": 0,
     "active_since_utc": "Wed 2026-08-12 03:48:33 UTC"
   },
   "last_signal": {
-    "n": 1674,
-    "ticker": "TREEUSDT",
-    "side": "LONG",
+    "n": 1677,
+    "ticker": "EIGENUSDT",
+    "side": "SHORT",
     "final": "ongoing",
-    "ts_utc": "2026-10-24T05:31:06+0000",
-    "conf": "осторожно 65%"
+    "ts_utc": "2026-10-24T09:06:33+0000",
+    "conf": "осторожно 64%"
   },
   "shadow_live": {
-    "total": 1674,
+    "total": 1677,
     "closed": 1649,
-    "ongoing": 25,
+    "ongoing": 28,
     "tp_clean": 845,
     "sl_clean": 577,
     "sl_reverse": 0,
@@ -89,6 +89,33 @@
     "lineage_note": "v17_13 frozen; shadow lineage: live с 09.06 + 12.05–09.06 через FULL backfill"
   },
   "last_50_signals": [
+    {
+      "n": 1677,
+      "date": "24.10",
+      "time": "12:06",
+      "ticker": "EIGENUSDT",
+      "side": "SHORT",
+      "final": "ongoing",
+      "conf": "осторожно 64%"
+    },
+    {
+      "n": 1676,
+      "date": "24.10",
+      "time": "11:31",
+      "ticker": "ERAUSDT",
+      "side": "LONG",
+      "final": "ongoing",
+      "conf": "осторожно 71%"
+    },
+    {
+      "n": 1675,
+      "date": "24.10",
+      "time": "10:04",
+      "ticker": "XPLUSDT",
+      "side": "SHORT",
+      "final": "ongoing",
+      "conf": "осторожно 60%"
+    },
     {
       "n": 1674,
       "date": "24.10",
@@ -511,55 +538,28 @@
       "side": "LONG",
       "final": "SL_clean",
       "conf": "осторожно 60%"
-    },
-    {
-      "n": 1627,
-      "date": "21.10",
-      "time": "21:40",
-      "ticker": "KORUUSDT",
-      "side": "LONG",
-      "final": "SL_clean",
-      "conf": "осторожно 60%"
-    },
-    {
-      "n": 1626,
-      "date": "21.10",
-      "time": "21:08",
-      "ticker": "REZUSDT",
-      "side": "LONG",
-      "final": "SL_clean",
-      "conf": "осторожно 62%"
-    },
-    {
-      "n": 1625,
-      "date": "21.10",
-      "time": "20:38",
-      "ticker": "ZHONGJIUSDT",
-      "side": "LONG",
-      "final": "SL_clean",
-      "conf": "осторожно 61%"
     }
   ],
   "cron_next": {
     "mmscan-daily-closer": "2026-10-25 03:00 UTC",
-    "mmscan-hourly-backfill": "2026-10-24 06:30 UTC",
-    "mmscan-snapshot": "2026-10-24 12:00 UTC"
+    "mmscan-hourly-backfill": "2026-10-24 12:30 UTC",
+    "mmscan-snapshot": "2026-10-24 18:00 UTC"
   },
   "health_24h": {
-    "window_start_utc": "2026-10-23T06:00:01Z",
-    "window_end_utc": "2026-10-24T06:00:01Z",
-    "new_signals": 22,
+    "window_start_utc": "2026-10-23T12:00:01Z",
+    "window_end_utc": "2026-10-24T12:00:01Z",
+    "new_signals": 18,
     "closed": 0,
-    "ongoing": 22,
+    "ongoing": 18,
     "tp_clean": 0,
     "sl_clean": 0,
     "sl_reverse": 0,
     "sideways": 0,
     "na": 0,
     "tp_rate_24h_pct": null,
-    "long": 7,
-    "short": 15,
-    "listener_uptime_hours": 1754.2,
+    "long": 6,
+    "short": 12,
+    "listener_uptime_hours": 1760.2,
     "listener_restarts": 0,
     "cron": {
       "daily_closer": {
@@ -567,30 +567,30 @@
         "last_line": "Лог: /root/mm-scan-trading-system/data/shadow/logs/closer.log"
       },
       "hourly_backfill": {
-        "last_run_utc": "2026-10-24T05:30:02Z",
+        "last_run_utc": "2026-10-24T11:30:03Z",
         "last_line": "Журнал: /root/mm-scan-trading-system/data/shadow/shadow_journal.xlsx  | лог: /root/mm-scan-trading-system/data/shadow/logs/backfill.log"
       },
       "snapshot": {
-        "last_run_utc": "2026-10-24T06:00:01Z"
+        "last_run_utc": "2026-10-24T12:00:01Z"
       }
     },
     "anomalies": [
-      "ongoing >24h без закрытия: 3"
+      "ongoing >24h без закрытия: 10"
     ]
   },
   "health_7d": {
-    "window_start_utc": "2026-10-17T06:00:01Z",
-    "window_end_utc": "2026-10-24T06:00:01Z",
-    "new_signals": 110,
-    "closed": 85,
-    "ongoing": 25,
-    "tp_clean": 52,
-    "sl_clean": 27,
+    "window_start_utc": "2026-10-17T12:00:01Z",
+    "window_end_utc": "2026-10-24T12:00:01Z",
+    "new_signals": 111,
+    "closed": 83,
+    "ongoing": 28,
+    "tp_clean": 51,
+    "sl_clean": 26,
     "sl_reverse": 0,
     "sideways": 6,
     "na": 0,
-    "tp_rate_7d_pct": 65.8,
-    "avg_signals_per_day": 15.7,
+    "tp_rate_7d_pct": 66.2,
+    "avg_signals_per_day": 15.9,
     "listener_uptime_7d_pct": 100.0
   }
 }
