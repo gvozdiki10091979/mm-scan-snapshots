@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-11-02T12:00:02Z
+Generated: 2026-11-02T18:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1937138
-- Uptime: 156.6h (active since Mon 2026-10-26 23:24:26 UTC)
-- Last signal: 2026-11-02T07:03:26+0000 (#1812 STXUSDT LONG, ongoing)
+- Uptime: 162.6h (active since Mon 2026-10-26 23:24:26 UTC)
+- Last signal: 2026-11-02T15:32:47+0000 (#1815 HAEDALUSDT LONG, ongoing)
 - Auto-restarts (since unit start): 8
 
-## Health 24h (window: 2026-11-01T12:00:02Z → 2026-11-02T12:00:02Z)
-- New signals: 8 (LONG 3 / SHORT 5)
+## Health 24h (window: 2026-11-01T18:00:01Z → 2026-11-02T18:00:01Z)
+- New signals: 9 (LONG 3 / SHORT 6)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 8
-- TP rate 24h: n/a (<6 closed)
-- Listener uptime: 156.6h, restarts: 8
-- Last closer: 2026-11-02T03:00:31Z
-- Last backfill: 2026-11-02T11:30:02Z
-- Anomalies: listener рестартов: 8; ongoing >24h без закрытия: 1
-
-## Health 7d (window: 2026-10-26T12:00:02Z → 2026-11-02T12:00:02Z)
-- New signals: 104 (~14.9/day)
-- Closed: 95 (TP 50, SL 27, SL→rev 0, Sideways 18, N/A 0)
 - Ongoing: 9
-- TP rate 7d: 64.9%
-- Listener uptime 7d: 93.2% (continuous since unit start)
+- TP rate 24h: n/a (<6 closed)
+- Listener uptime: 162.6h, restarts: 8
+- Last closer: 2026-11-02T03:00:31Z
+- Last backfill: 2026-11-02T17:30:02Z
+- Anomalies: listener рестартов: 8; ongoing >24h без закрытия: 3
+
+## Health 7d (window: 2026-10-26T18:00:01Z → 2026-11-02T18:00:01Z)
+- New signals: 105 (~15.0/day)
+- Closed: 93 (TP 49, SL 26, SL→rev 0, Sideways 18, N/A 0)
+- Ongoing: 12
+- TP rate 7d: 65.3%
+- Listener uptime 7d: 96.8% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 1812
+- Total signals: 1815
 - Closed: 1803 (TP_clean 928, SL_clean 621, SL→reverse 0, Sideways 254, N/A 0)
-- Ongoing (<24h): 9
+- Ongoing (<24h): 12
 - TP rate: 59.9% decided (TP/(TP+SL)) · 51.5% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,9 @@ Generated: 2026-11-02T12:00:02Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 1815 | 02.11 | 18:32 | HAEDALUSDT | LONG | ongoing | осторожно 66% |
+| 1814 | 02.11 | 15:09 | ETHFIUSDT | SHORT | ongoing | осторожно 60% |
+| 1813 | 02.11 | 15:06 | TAOUSDT | SHORT | ongoing | осторожно 66% |
 | 1812 | 02.11 | 10:03 | STXUSDT | LONG | ongoing | осторожно 60% |
 | 1811 | 02.11 | 09:04 | LINKUSDT | SHORT | ongoing | осторожно 62% |
 | 1810 | 02.11 | 04:04 | POWRUSDT | SHORT | ongoing | осторожно 66% |
@@ -98,14 +101,11 @@ Generated: 2026-11-02T12:00:02Z
 | 1768 | 30.10 | 17:41 | KORUUSDT | SHORT | TP_clean | осторожно 71% |
 | 1767 | 30.10 | 16:38 | TQQQUSDT | SHORT | TP_clean | осторожно 64% |
 | 1766 | 30.10 | 16:36 | BIRBUSDT | SHORT | SL_clean | осторожно 65% |
-| 1765 | 30.10 | 16:07 | MRVLUSDT | SHORT | TP_clean | осторожно 67% |
-| 1764 | 30.10 | 15:32 | DOODUSDT | SHORT | TP_clean | осторожно 71% |
-| 1763 | 30.10 | 14:41 | IOSTUSDT | SHORT | Sideways | осторожно 61% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-11-03 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-11-02 12:30 UTC
-- mmscan-snapshot: next run 2026-11-02 18:00 UTC
+- mmscan-hourly-backfill: next run 2026-11-02 18:30 UTC
+- mmscan-snapshot: next run 2026-11-03 00:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
