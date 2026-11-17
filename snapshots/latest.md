@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-11-17T00:00:01Z
+Generated: 2026-11-17T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1937138
-- Uptime: 504.6h (active since Mon 2026-10-26 23:24:26 UTC)
-- Last signal: 2026-11-16T23:35:42+0000 (#2021 PLTRUSDT SHORT, ongoing)
+- Uptime: 510.6h (active since Mon 2026-10-26 23:24:26 UTC)
+- Last signal: 2026-11-17T04:06:43+0000 (#2026 ARMUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 8
 
-## Health 24h (window: 2026-11-16T00:00:01Z → 2026-11-17T00:00:01Z)
-- New signals: 15 (LONG 4 / SHORT 11)
+## Health 24h (window: 2026-11-16T06:00:01Z → 2026-11-17T06:00:01Z)
+- New signals: 16 (LONG 4 / SHORT 12)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 15
+- Ongoing: 16
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 504.6h, restarts: 8
-- Last closer: 2026-11-16T03:00:50Z
-- Last backfill: 2026-11-16T23:30:02Z
-- Anomalies: listener рестартов: 8; ongoing >24h без закрытия: 16
+- Listener uptime: 510.6h, restarts: 8
+- Last closer: 2026-11-17T03:01:03Z
+- Last backfill: 2026-11-17T05:30:02Z
+- Anomalies: listener рестартов: 8
 
-## Health 7d (window: 2026-11-10T00:00:01Z → 2026-11-17T00:00:01Z)
-- New signals: 98 (~14.0/day)
-- Closed: 67 (TP 35, SL 19, SL→rev 0, Sideways 13, N/A 0)
-- Ongoing: 31
-- TP rate 7d: 64.8%
+## Health 7d (window: 2026-11-10T06:00:01Z → 2026-11-17T06:00:01Z)
+- New signals: 101 (~14.4/day)
+- Closed: 85 (TP 44, SL 23, SL→rev 0, Sideways 18, N/A 0)
+- Ongoing: 16
+- TP rate 7d: 65.7%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 2021
-- Closed: 1990 (TP_clean 1012, SL_clean 698, SL→reverse 0, Sideways 280, N/A 0)
-- Ongoing (<24h): 31
-- TP rate: 59.2% decided (TP/(TP+SL)) · 50.9% pointwise (excl N/A)
+- Total signals: 2026
+- Closed: 2010 (TP_clean 1022, SL_clean 702, SL→reverse 0, Sideways 286, N/A 0)
+- Ongoing (<24h): 16
+- TP rate: 59.3% decided (TP/(TP+SL)) · 50.8% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,6 +51,11 @@ Generated: 2026-11-17T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 2026 | 17.11 | 07:06 | ARMUSDT | SHORT | ongoing | осторожно 76% |
+| 2025 | 17.11 | 07:06 | TQQQUSDT | SHORT | ongoing | осторожно 79% |
+| 2024 | 17.11 | 07:04 | SNXXUSDT | SHORT | ongoing | осторожно 62% |
+| 2023 | 17.11 | 06:34 | BMNRUSDT | LONG | ongoing | осторожно 60% |
+| 2022 | 17.11 | 03:31 | LITUSDT | SHORT | ongoing | осторожно 68% |
 | 2021 | 17.11 | 02:35 | PLTRUSDT | SHORT | ongoing | осторожно 62% |
 | 2020 | 17.11 | 02:32 | SKDDUSDT | LONG | ongoing | осторожно 67% |
 | 2019 | 17.11 | 01:32 | ZILUSDT | SHORT | ongoing | осторожно 79% |
@@ -62,26 +67,26 @@ Generated: 2026-11-17T00:00:01Z
 | 2013 | 16.11 | 14:02 | ENAUSDT | SHORT | ongoing | осторожно 63% |
 | 2012 | 16.11 | 13:33 | SKDDUSDT | LONG | ongoing | осторожно 68% |
 | 2011 | 16.11 | 09:06 | WIFUSDT | SHORT | ongoing | осторожно 71% |
-| 2010 | 16.11 | 05:07 | UNITREEUSDT | LONG | ongoing | осторожно 77% |
-| 2009 | 16.11 | 05:04 | DASHUSDT | SHORT | ongoing | осторожно 62% |
-| 2008 | 16.11 | 05:02 | NEARUSDT | SHORT | ongoing | осторожно 62% |
-| 2007 | 16.11 | 03:09 | MRVLUSDT | SHORT | ongoing | осторожно 90% |
-| 2006 | 16.11 | 01:03 | ZECUSDT | LONG | ongoing | осторожно 66% |
-| 2005 | 15.11 | 22:08 | SKYUSDT | SHORT | ongoing | осторожно 62% |
-| 2004 | 15.11 | 22:06 | LABUSDT | SHORT | ongoing | осторожно 64% |
-| 2003 | 15.11 | 22:06 | XRPUSDT | SHORT | ongoing | осторожно 60% |
-| 2002 | 15.11 | 22:00 | KAVAUSDT | SHORT | ongoing | осторожно 76% |
-| 2001 | 15.11 | 21:35 | WIFUSDT | SHORT | ongoing | входить 86% |
-| 2000 | 15.11 | 17:34 | DOTUSDT | SHORT | ongoing | осторожно 65% |
-| 1999 | 15.11 | 17:31 | ERAUSDT | SHORT | ongoing | осторожно 60% |
-| 1998 | 15.11 | 16:09 | OPUSDT | SHORT | ongoing | осторожно 66% |
-| 1997 | 15.11 | 15:38 | FARTCOINUSDT | SHORT | ongoing | осторожно 68% |
-| 1996 | 15.11 | 15:02 | SKYUSDT | SHORT | ongoing | осторожно 63% |
-| 1995 | 15.11 | 14:34 | BATUSDT | SHORT | ongoing | осторожно 62% |
-| 1994 | 15.11 | 08:38 | AEROUSDT | SHORT | ongoing | осторожно 62% |
-| 1993 | 15.11 | 08:38 | ETHUSDT | SHORT | ongoing | осторожно 68% |
-| 1992 | 15.11 | 08:07 | LITUSDT | SHORT | ongoing | осторожно 78% |
-| 1991 | 15.11 | 07:35 | 1000PEPEUSDT | SHORT | ongoing | осторожно 64% |
+| 2010 | 16.11 | 05:07 | UNITREEUSDT | LONG | TP_clean | осторожно 77% |
+| 2009 | 16.11 | 05:04 | DASHUSDT | SHORT | Sideways | осторожно 62% |
+| 2008 | 16.11 | 05:02 | NEARUSDT | SHORT | SL_clean | осторожно 62% |
+| 2007 | 16.11 | 03:09 | MRVLUSDT | SHORT | TP_clean | осторожно 90% |
+| 2006 | 16.11 | 01:03 | ZECUSDT | LONG | SL_clean | осторожно 66% |
+| 2005 | 15.11 | 22:08 | SKYUSDT | SHORT | TP_clean | осторожно 62% |
+| 2004 | 15.11 | 22:06 | LABUSDT | SHORT | Sideways | осторожно 64% |
+| 2003 | 15.11 | 22:06 | XRPUSDT | SHORT | Sideways | осторожно 60% |
+| 2002 | 15.11 | 22:00 | KAVAUSDT | SHORT | TP_clean | осторожно 76% |
+| 2001 | 15.11 | 21:35 | WIFUSDT | SHORT | Sideways | входить 86% |
+| 2000 | 15.11 | 17:34 | DOTUSDT | SHORT | Sideways | осторожно 65% |
+| 1999 | 15.11 | 17:31 | ERAUSDT | SHORT | TP_clean | осторожно 60% |
+| 1998 | 15.11 | 16:09 | OPUSDT | SHORT | TP_clean | осторожно 66% |
+| 1997 | 15.11 | 15:38 | FARTCOINUSDT | SHORT | SL_clean | осторожно 68% |
+| 1996 | 15.11 | 15:02 | SKYUSDT | SHORT | TP_clean | осторожно 63% |
+| 1995 | 15.11 | 14:34 | BATUSDT | SHORT | SL_clean | осторожно 62% |
+| 1994 | 15.11 | 08:38 | AEROUSDT | SHORT | TP_clean | осторожно 62% |
+| 1993 | 15.11 | 08:38 | ETHUSDT | SHORT | Sideways | осторожно 68% |
+| 1992 | 15.11 | 08:07 | LITUSDT | SHORT | TP_clean | осторожно 78% |
+| 1991 | 15.11 | 07:35 | 1000PEPEUSDT | SHORT | TP_clean | осторожно 64% |
 | 1990 | 15.11 | 05:39 | HYPEUSDT | SHORT | SL_clean | осторожно 62% |
 | 1989 | 15.11 | 05:38 | GRASSUSDT | SHORT | TP_clean | осторожно 68% |
 | 1988 | 15.11 | 05:37 | UNIUSDT | SHORT | SL_clean | осторожно 64% |
@@ -96,16 +101,11 @@ Generated: 2026-11-17T00:00:01Z
 | 1979 | 14.11 | 13:05 | PENGUUSDT | SHORT | TP_clean | осторожно 74% |
 | 1978 | 14.11 | 12:09 | INTCUSDT | SHORT | TP_clean | осторожно 68% |
 | 1977 | 14.11 | 10:05 | ETCUSDT | SHORT | TP_clean | осторожно 70% |
-| 1976 | 14.11 | 09:32 | BARDUSDT | LONG | SL_clean | осторожно 70% |
-| 1975 | 14.11 | 08:41 | DRAMUSDT | SHORT | TP_clean | осторожно 78% |
-| 1974 | 14.11 | 03:40 | TSMUSDT | SHORT | Sideways | осторожно 63% |
-| 1973 | 14.11 | 03:37 | INTCUSDT | SHORT | TP_clean | осторожно 74% |
-| 1972 | 14.11 | 03:03 | DRAMUSDT | SHORT | TP_clean | осторожно 68% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-11-17 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-11-17 00:30 UTC
-- mmscan-snapshot: next run 2026-11-17 06:00 UTC
+- mmscan-daily-closer: next run 2026-11-18 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-11-17 06:30 UTC
+- mmscan-snapshot: next run 2026-11-17 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
