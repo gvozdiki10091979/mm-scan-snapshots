@@ -1,35 +1,35 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-11-21T00:00:01Z
+Generated: 2026-11-21T06:00:01Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1937138
-- Uptime: 600.6h (active since Mon 2026-10-26 23:24:26 UTC)
-- Last signal: 2026-11-20T23:39:34+0000 (#2093 QNTUSDT SHORT, ongoing)
+- Uptime: 606.6h (active since Mon 2026-10-26 23:24:26 UTC)
+- Last signal: 2026-11-21T04:34:48+0000 (#2101 MVLLUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 8
 
-## Health 24h (window: 2026-11-20T00:00:01Z → 2026-11-21T00:00:01Z)
-- New signals: 23 (LONG 9 / SHORT 14)
+## Health 24h (window: 2026-11-20T06:00:01Z → 2026-11-21T06:00:01Z)
+- New signals: 29 (LONG 8 / SHORT 21)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
-- Ongoing: 23
+- Ongoing: 29
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 600.6h, restarts: 8
-- Last closer: 2026-11-21T00:00:00Z
-- Last backfill: 2026-11-21T00:00:00Z
-- Anomalies: listener рестартов: 8; ongoing >24h без закрытия: 11
+- Listener uptime: 606.6h, restarts: 8
+- Last closer: 2026-11-21T03:00:37Z
+- Last backfill: 2026-11-21T05:30:03Z
+- Anomalies: listener рестартов: 8; ongoing >24h без закрытия: 1
 
-## Health 7d (window: 2026-11-14T00:00:01Z → 2026-11-21T00:00:01Z)
-- New signals: 122 (~17.4/day)
-- Closed: 88 (TP 52, SL 23, SL→rev 0, Sideways 13, N/A 0)
-- Ongoing: 34
-- TP rate 7d: 69.3%
+## Health 7d (window: 2026-11-14T06:00:01Z → 2026-11-21T06:00:01Z)
+- New signals: 126 (~18.0/day)
+- Closed: 96 (TP 57, SL 27, SL→rev 0, Sideways 12, N/A 0)
+- Ongoing: 30
+- TP rate 7d: 67.9%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 2093
-- Closed: 2059 (TP_clean 1053, SL_clean 717, SL→reverse 0, Sideways 289, N/A 0)
-- Ongoing (<24h): 34
-- TP rate: 59.5% decided (TP/(TP+SL)) · 51.1% pointwise (excl N/A)
+- Total signals: 2101
+- Closed: 2071 (TP_clean 1061, SL_clean 721, SL→reverse 0, Sideways 289, N/A 0)
+- Ongoing (<24h): 30
+- TP rate: 59.5% decided (TP/(TP+SL)) · 51.2% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
 - Total: 761
@@ -51,6 +51,14 @@ Generated: 2026-11-21T00:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 2101 | 21.11 | 07:34 | MVLLUSDT | SHORT | ongoing | осторожно 78% |
+| 2100 | 21.11 | 07:33 | CSOPSKHYNIX2LUSDT | SHORT | ongoing | осторожно 72% |
+| 2099 | 21.11 | 07:08 | RAMUSDT | SHORT | ongoing | осторожно 60% |
+| 2098 | 21.11 | 07:04 | SKUUUSDT | SHORT | ongoing | осторожно 61% |
+| 2097 | 21.11 | 05:11 | COINUSDT | SHORT | ongoing | осторожно 62% |
+| 2096 | 21.11 | 04:36 | AVAXUSDT | SHORT | ongoing | осторожно 64% |
+| 2095 | 21.11 | 04:06 | XRPUSDT | SHORT | ongoing | осторожно 60% |
+| 2094 | 21.11 | 03:33 | LABUSDT | SHORT | ongoing | осторожно 60% |
 | 2093 | 21.11 | 02:39 | QNTUSDT | SHORT | ongoing | осторожно 81% |
 | 2092 | 21.11 | 02:08 | 1000PEPEUSDT | SHORT | ongoing | осторожно 63% |
 | 2091 | 21.11 | 01:13 | FILUSDT | SHORT | ongoing | осторожно 62% |
@@ -73,18 +81,18 @@ Generated: 2026-11-21T00:00:01Z
 | 2074 | 20.11 | 09:33 | ERAUSDT | LONG | ongoing | осторожно 60% |
 | 2073 | 20.11 | 09:06 | FARTCOINUSDT | SHORT | ongoing | осторожно 67% |
 | 2072 | 20.11 | 07:39 | AEROUSDT | SHORT | ongoing | осторожно 63% |
-| 2071 | 20.11 | 05:34 | RAREUSDT | LONG | ongoing | осторожно 74% |
-| 2070 | 19.11 | 23:37 | AEROUSDT | SHORT | ongoing | осторожно 62% |
-| 2069 | 19.11 | 23:11 | QCOMUSDT | SHORT | ongoing | осторожно 62% |
-| 2068 | 19.11 | 21:08 | CAPUSDT | SHORT | ongoing | осторожно 68% |
-| 2067 | 19.11 | 20:09 | GRASSUSDT | SHORT | ongoing | осторожно 73% |
-| 2066 | 19.11 | 20:09 | AMZNUSDT | SHORT | ongoing | осторожно 70% |
-| 2065 | 19.11 | 13:05 | ZHIPUUSDT | LONG | ongoing | осторожно 76% |
-| 2064 | 19.11 | 12:31 | 1000LUNCUSDT | LONG | ongoing | осторожно 64% |
-| 2063 | 19.11 | 10:35 | ZKCUSDT | LONG | ongoing | осторожно 61% |
-| 2062 | 19.11 | 09:02 | SOXLUSDT | LONG | ongoing | осторожно 62% |
-| 2061 | 19.11 | 07:40 | QCOMUSDT | SHORT | ongoing | осторожно 76% |
-| 2060 | 19.11 | 06:10 | ONDOUSDT | SHORT | ongoing | осторожно 62% |
+| 2071 | 20.11 | 05:34 | RAREUSDT | LONG | SL_clean | осторожно 74% |
+| 2070 | 19.11 | 23:37 | AEROUSDT | SHORT | TP_clean | осторожно 62% |
+| 2069 | 19.11 | 23:11 | QCOMUSDT | SHORT | TP_clean | осторожно 62% |
+| 2068 | 19.11 | 21:08 | CAPUSDT | SHORT | TP_clean | осторожно 68% |
+| 2067 | 19.11 | 20:09 | GRASSUSDT | SHORT | TP_clean | осторожно 73% |
+| 2066 | 19.11 | 20:09 | AMZNUSDT | SHORT | TP_clean | осторожно 70% |
+| 2065 | 19.11 | 13:05 | ZHIPUUSDT | LONG | SL_clean | осторожно 76% |
+| 2064 | 19.11 | 12:31 | 1000LUNCUSDT | LONG | TP_clean | осторожно 64% |
+| 2063 | 19.11 | 10:35 | ZKCUSDT | LONG | TP_clean | осторожно 61% |
+| 2062 | 19.11 | 09:02 | SOXLUSDT | LONG | TP_clean | осторожно 62% |
+| 2061 | 19.11 | 07:40 | QCOMUSDT | SHORT | SL_clean | осторожно 76% |
+| 2060 | 19.11 | 06:10 | ONDOUSDT | SHORT | SL_clean | осторожно 62% |
 | 2059 | 19.11 | 05:04 | RKLBUSDT | SHORT | SL_clean | осторожно 60% |
 | 2058 | 19.11 | 04:34 | AAVEUSDT | SHORT | TP_clean | осторожно 62% |
 | 2057 | 19.11 | 02:08 | XAGUSDT | SHORT | TP_clean | осторожно 63% |
@@ -93,19 +101,11 @@ Generated: 2026-11-21T00:00:01Z
 | 2054 | 18.11 | 23:41 | ONDOUSDT | SHORT | Sideways | осторожно 60% |
 | 2053 | 18.11 | 23:34 | HYPEUSDT | SHORT | SL_clean | осторожно 82% |
 | 2052 | 18.11 | 23:34 | BLESSUSDT | SHORT | TP_clean | осторожно 60% |
-| 2051 | 18.11 | 23:12 | BMNRUSDT | SHORT | SL_clean | осторожно 62% |
-| 2050 | 18.11 | 23:11 | SKHYUSDT | SHORT | SL_clean | осторожно 73% |
-| 2049 | 18.11 | 23:11 | BREVUSDT | LONG | SL_clean | осторожно 66% |
-| 2048 | 18.11 | 23:11 | FILUSDT | SHORT | TP_clean | осторожно 68% |
-| 2047 | 18.11 | 23:11 | IDOLUSDT | LONG | TP_clean | осторожно 64% |
-| 2046 | 18.11 | 21:02 | ZKCUSDT | LONG | TP_clean | осторожно 67% |
-| 2045 | 18.11 | 19:07 | MOCAUSDT | LONG | TP_clean | осторожно 61% |
-| 2044 | 18.11 | 17:39 | KAVAUSDT | LONG | TP_clean | осторожно 67% |
 
 ## Cron jobs
-- mmscan-daily-closer: next run 2026-11-21 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-11-21 00:30 UTC
-- mmscan-snapshot: next run 2026-11-21 06:00 UTC
+- mmscan-daily-closer: next run 2026-11-22 03:00 UTC
+- mmscan-hourly-backfill: next run 2026-11-21 06:30 UTC
+- mmscan-snapshot: next run 2026-11-21 12:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
