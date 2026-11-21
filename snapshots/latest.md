@@ -1,34 +1,34 @@
 # MM Scan Shadow Snapshot
-Generated: 2026-11-21T06:00:01Z
+Generated: 2026-11-21T12:00:02Z
 
 ## Listener Health
 - systemd status: **active**
 - MainPID: 1937138
-- Uptime: 606.6h (active since Mon 2026-10-26 23:24:26 UTC)
-- Last signal: 2026-11-21T04:34:48+0000 (#2101 MVLLUSDT SHORT, ongoing)
+- Uptime: 612.6h (active since Mon 2026-10-26 23:24:26 UTC)
+- Last signal: 2026-11-21T11:04:03+0000 (#2109 SNXXUSDT SHORT, ongoing)
 - Auto-restarts (since unit start): 8
 
-## Health 24h (window: 2026-11-20T06:00:01Z → 2026-11-21T06:00:01Z)
-- New signals: 29 (LONG 8 / SHORT 21)
+## Health 24h (window: 2026-11-20T12:00:02Z → 2026-11-21T12:00:02Z)
+- New signals: 29 (LONG 6 / SHORT 23)
 - Closed: 0 (TP 0, SL 0, SL→rev 0, Sideways 0, N/A 0)
 - Ongoing: 29
 - TP rate 24h: n/a (<6 closed)
-- Listener uptime: 606.6h, restarts: 8
+- Listener uptime: 612.6h, restarts: 8
 - Last closer: 2026-11-21T03:00:37Z
-- Last backfill: 2026-11-21T05:30:03Z
-- Anomalies: listener рестартов: 8; ongoing >24h без закрытия: 1
+- Last backfill: 2026-11-21T11:30:02Z
+- Anomalies: listener рестартов: 8; ongoing >24h без закрытия: 9
 
-## Health 7d (window: 2026-11-14T06:00:01Z → 2026-11-21T06:00:01Z)
-- New signals: 126 (~18.0/day)
-- Closed: 96 (TP 57, SL 27, SL→rev 0, Sideways 12, N/A 0)
-- Ongoing: 30
-- TP rate 7d: 67.9%
+## Health 7d (window: 2026-11-14T12:00:02Z → 2026-11-21T12:00:02Z)
+- New signals: 130 (~18.6/day)
+- Closed: 92 (TP 54, SL 26, SL→rev 0, Sideways 12, N/A 0)
+- Ongoing: 38
+- TP rate 7d: 67.5%
 - Listener uptime 7d: 100.0% (continuous since unit start)
 
 ## Shadow Journal Live
-- Total signals: 2101
+- Total signals: 2109
 - Closed: 2071 (TP_clean 1061, SL_clean 721, SL→reverse 0, Sideways 289, N/A 0)
-- Ongoing (<24h): 30
+- Ongoing (<24h): 38
 - TP rate: 59.5% decided (TP/(TP+SL)) · 51.2% pointwise (excl N/A)
 
 ## Shadow Journal FULL (historical 12.05–12.06)
@@ -51,6 +51,14 @@ Generated: 2026-11-21T06:00:01Z
 ## Last 50 signals (live)
 | # | Date | Time | Ticker | Side | Финал | Conf |
 |---|------|------|--------|------|-------|------|
+| 2109 | 21.11 | 14:04 | SNXXUSDT | SHORT | ongoing | осторожно 60% |
+| 2108 | 21.11 | 12:39 | 1000BONKUSDT | SHORT | ongoing | осторожно 70% |
+| 2107 | 21.11 | 12:38 | BOMEUSDT | SHORT | ongoing | осторожно 68% |
+| 2106 | 21.11 | 12:36 | AVAXUSDT | SHORT | ongoing | осторожно 62% |
+| 2105 | 21.11 | 12:36 | RENDERUSDT | SHORT | ongoing | осторожно 62% |
+| 2104 | 21.11 | 12:33 | FARTCOINUSDT | SHORT | ongoing | осторожно 68% |
+| 2103 | 21.11 | 12:08 | BTCUSDT | SHORT | ongoing | осторожно 64% |
+| 2102 | 21.11 | 12:06 | SKDDUSDT | LONG | ongoing | осторожно 74% |
 | 2101 | 21.11 | 07:34 | MVLLUSDT | SHORT | ongoing | осторожно 78% |
 | 2100 | 21.11 | 07:33 | CSOPSKHYNIX2LUSDT | SHORT | ongoing | осторожно 72% |
 | 2099 | 21.11 | 07:08 | RAMUSDT | SHORT | ongoing | осторожно 60% |
@@ -93,19 +101,11 @@ Generated: 2026-11-21T06:00:01Z
 | 2062 | 19.11 | 09:02 | SOXLUSDT | LONG | TP_clean | осторожно 62% |
 | 2061 | 19.11 | 07:40 | QCOMUSDT | SHORT | SL_clean | осторожно 76% |
 | 2060 | 19.11 | 06:10 | ONDOUSDT | SHORT | SL_clean | осторожно 62% |
-| 2059 | 19.11 | 05:04 | RKLBUSDT | SHORT | SL_clean | осторожно 60% |
-| 2058 | 19.11 | 04:34 | AAVEUSDT | SHORT | TP_clean | осторожно 62% |
-| 2057 | 19.11 | 02:08 | XAGUSDT | SHORT | TP_clean | осторожно 63% |
-| 2056 | 19.11 | 01:08 | ARBUSDT | SHORT | TP_clean | осторожно 65% |
-| 2055 | 19.11 | 00:04 | XPLUSDT | SHORT | SL_clean | осторожно 68% |
-| 2054 | 18.11 | 23:41 | ONDOUSDT | SHORT | Sideways | осторожно 60% |
-| 2053 | 18.11 | 23:34 | HYPEUSDT | SHORT | SL_clean | осторожно 82% |
-| 2052 | 18.11 | 23:34 | BLESSUSDT | SHORT | TP_clean | осторожно 60% |
 
 ## Cron jobs
 - mmscan-daily-closer: next run 2026-11-22 03:00 UTC
-- mmscan-hourly-backfill: next run 2026-11-21 06:30 UTC
-- mmscan-snapshot: next run 2026-11-21 12:00 UTC
+- mmscan-hourly-backfill: next run 2026-11-21 12:30 UTC
+- mmscan-snapshot: next run 2026-11-21 18:00 UTC
 
 ## Pending items (для PM)
 - 4 REAL FLAG: ETHFI #132, TIA #137, POL #271, KERNEL #361
