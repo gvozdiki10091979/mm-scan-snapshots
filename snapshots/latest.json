@@ -1,25 +1,25 @@
 {
-  "generated_at_utc": "2026-11-25T18:00:01Z",
-  "snapshot_version": "2026-11-25T180001Z",
+  "generated_at_utc": "2026-11-26T00:00:01Z",
+  "snapshot_version": "2026-11-26T000001Z",
   "listener": {
     "status": "active",
     "main_pid": 3053496,
-    "uptime_hours": 53.0,
+    "uptime_hours": 59.0,
     "auto_restarts_since_start": 12,
     "active_since_utc": "Mon 2026-11-23 12:58:26 UTC"
   },
   "last_signal": {
-    "n": 2180,
-    "ticker": "CSOPSKHYNIX2LUSDT",
+    "n": 2182,
+    "ticker": "DOSUSDT",
     "side": "SHORT",
     "final": "ongoing",
-    "ts_utc": "2026-11-25T17:12:41+0000",
-    "conf": "осторожно 69%"
+    "ts_utc": "2026-11-25T22:35:13+0000",
+    "conf": "осторожно 63%"
   },
   "shadow_live": {
-    "total": 2180,
+    "total": 2182,
     "closed": 2146,
-    "ongoing": 34,
+    "ongoing": 36,
     "tp_clean": 1098,
     "sl_clean": 754,
     "sl_reverse": 0,
@@ -89,6 +89,24 @@
     "lineage_note": "v17_13 frozen; shadow lineage: live с 09.06 + 12.05–09.06 через FULL backfill"
   },
   "last_50_signals": [
+    {
+      "n": 2182,
+      "date": "26.11",
+      "time": "01:35",
+      "ticker": "DOSUSDT",
+      "side": "SHORT",
+      "final": "ongoing",
+      "conf": "осторожно 63%"
+    },
+    {
+      "n": 2181,
+      "date": "25.11",
+      "time": "22:39",
+      "ticker": "MSTUUSDT",
+      "side": "SHORT",
+      "final": "ongoing",
+      "conf": "осторожно 60%"
+    },
     {
       "n": 2180,
       "date": "25.11",
@@ -520,34 +538,16 @@
       "side": "SHORT",
       "final": "SL_clean",
       "conf": "осторожно 72%"
-    },
-    {
-      "n": 2132,
-      "date": "22.11",
-      "time": "16:31",
-      "ticker": "COOKIEUSDT",
-      "side": "LONG",
-      "final": "Sideways",
-      "conf": "осторожно 79%"
-    },
-    {
-      "n": 2131,
-      "date": "22.11",
-      "time": "14:34",
-      "ticker": "AAVEUSDT",
-      "side": "LONG",
-      "final": "Sideways",
-      "conf": "осторожно 62%"
     }
   ],
   "cron_next": {
     "mmscan-daily-closer": "2026-11-26 03:00 UTC",
-    "mmscan-hourly-backfill": "2026-11-25 18:30 UTC",
-    "mmscan-snapshot": "2026-11-26 00:00 UTC"
+    "mmscan-hourly-backfill": "2026-11-26 00:30 UTC",
+    "mmscan-snapshot": "2026-11-26 06:00 UTC"
   },
   "health_24h": {
-    "window_start_utc": "2026-11-24T18:00:01Z",
-    "window_end_utc": "2026-11-25T18:00:01Z",
+    "window_start_utc": "2026-11-25T00:00:01Z",
+    "window_end_utc": "2026-11-26T00:00:01Z",
     "new_signals": 22,
     "closed": 0,
     "ongoing": 22,
@@ -557,41 +557,41 @@
     "sideways": 0,
     "na": 0,
     "tp_rate_24h_pct": null,
-    "long": 4,
-    "short": 18,
-    "listener_uptime_hours": 53.0,
+    "long": 3,
+    "short": 19,
+    "listener_uptime_hours": 59.0,
     "listener_restarts": 12,
     "cron": {
       "daily_closer": {
-        "last_run_utc": "2026-11-25T03:00:25Z",
-        "last_line": "Лог: /root/mm-scan-trading-system/data/shadow/logs/closer.log"
+        "last_run_utc": "2026-11-26T00:00:01Z",
+        "last_line": null
       },
       "hourly_backfill": {
-        "last_run_utc": "2026-11-25T17:30:03Z",
-        "last_line": "Журнал: /root/mm-scan-trading-system/data/shadow/shadow_journal.xlsx  | лог: /root/mm-scan-trading-system/data/shadow/logs/backfill.log"
+        "last_run_utc": "2026-11-26T00:00:01Z",
+        "last_line": null
       },
       "snapshot": {
-        "last_run_utc": "2026-11-25T18:00:01Z"
+        "last_run_utc": "2026-11-26T00:00:01Z"
       }
     },
     "anomalies": [
       "listener рестартов: 12",
-      "ongoing >24h без закрытия: 12"
+      "ongoing >24h без закрытия: 14"
     ]
   },
   "health_7d": {
-    "window_start_utc": "2026-11-18T18:00:01Z",
-    "window_end_utc": "2026-11-25T18:00:01Z",
-    "new_signals": 135,
-    "closed": 101,
-    "ongoing": 34,
-    "tp_clean": 52,
-    "sl_clean": 43,
+    "window_start_utc": "2026-11-19T00:00:01Z",
+    "window_end_utc": "2026-11-26T00:00:01Z",
+    "new_signals": 125,
+    "closed": 89,
+    "ongoing": 36,
+    "tp_clean": 46,
+    "sl_clean": 38,
     "sl_reverse": 0,
-    "sideways": 6,
+    "sideways": 5,
     "na": 0,
-    "tp_rate_7d_pct": 54.7,
-    "avg_signals_per_day": 19.3,
-    "listener_uptime_7d_pct": 31.5
+    "tp_rate_7d_pct": 54.8,
+    "avg_signals_per_day": 17.9,
+    "listener_uptime_7d_pct": 35.1
   }
 }
